@@ -1,0 +1,533 @@
+﻿{
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.1/OSP_Qualification_Plan_Schema.json",
+    "Projects": [
+        {
+            "Id": "Fluconazole",
+            "Path": "../../Fluconazole-Model.json",
+            "BuildingBlocks": []
+        }
+    ],
+    "ObservedDataSets": [],
+    "Plots": {
+        "PlotSettings": {
+            "ChartWidth": 500,
+            "ChartHeight": 400,
+            "Fonts": {
+                "AxisSize": 11,
+                "LegendSize": 9,
+                "OriginSize": 9,
+                "FontFamilyName": "Arial",
+                "WatermarkSize": 40
+            }
+        },
+        "AxesSettings": {
+            "ComparisonTimeProfile": [
+                {
+                    "Unit": "h",
+                    "Dimension": "Time",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Unit": "µg/l",
+                    "Dimension": "Concentration (mass)",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "DDIRatioPlotsPredictedVsObserved": [
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "DDIRatioPlotsResidualsVsObserved": [
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                }
+            ],
+            "GOFMergedPlotsPredictedVsObserved": [
+                {
+                    "Unit": "µg/l",
+                    "Dimension": "Concentration (mass)",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Unit": "µg/l",
+                    "Dimension": "Concentration (mass)",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "GOFMergedPlotsResidualsOverTime": [
+                {
+                    "Unit": "h",
+                    "Dimension": "Time",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                }
+            ],
+            "PKRatioPlots": [
+                {
+                    "Unit": "year(s)",
+                    "Dimension": "Age",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ]
+        },
+        "AllPlots": [
+            {
+                "Project": "Fluconazole",
+                "Simulation": "Ahonen_1997_fluconazole_400mg_iv_test",
+                "SectionId": 332
+            },
+            {
+                "Project": "Fluconazole",
+                "Simulation": "Brammer_1990_fluconazole_50mg_iv_test",
+                "SectionId": 332
+            },
+            {
+                "Project": "Fluconazole",
+                "Simulation": "Shiba_1990_fluconazole_25mg_iv_test",
+                "SectionId": 332
+            },
+            {
+                "Project": "Fluconazole",
+                "Simulation": "Sobue_2004_fluconazole_800mg_iv_test",
+                "SectionId": 332
+            },
+            {
+                "Project": "Fluconazole",
+                "Simulation": "Yeates_1994_fluconazole_100mg_iv_test",
+                "SectionId": 332
+            },
+            {
+                "Project": "Fluconazole",
+                "Simulation": "Palkama_1998_fluconazole_400mg_po_test",
+                "SectionId": 332
+            },
+            {
+                "Project": "Fluconazole",
+                "Simulation": "Shiba_1990_fluconazole_100mg_po_test",
+                "SectionId": 332
+            },
+            {
+                "Project": "Fluconazole",
+                "Simulation": "Varhe_1996_fluconazole_50mg_po_test",
+                "SectionId": 332
+            },
+            {
+                "Project": "Fluconazole",
+                "Simulation": "Palkama_1998_fluconazole_400mg_iv_train",
+                "SectionId": 331
+            },
+            {
+                "Project": "Fluconazole",
+                "Simulation": "Ripa_1993_fluconazole_100mg_iv_train",
+                "SectionId": 331
+            },
+            {
+                "Project": "Fluconazole",
+                "Simulation": "Shiba_1990_fluconazole_50mg_iv_train",
+                "SectionId": 331
+            },
+            {
+                "Project": "Fluconazole",
+                "Simulation": "Ahonen_1997_fluconazole_400mg_po_train",
+                "SectionId": 331
+            },
+            {
+                "Project": "Fluconazole",
+                "Simulation": "Brammer_1990_fluconazole_200mg_po_train",
+                "SectionId": 331
+            },
+            {
+                "Project": "Fluconazole",
+                "Simulation": "Brammer_1990_fluconazole_300mg_po_train",
+                "SectionId": 331
+            },
+            {
+                "Project": "Fluconazole",
+                "Simulation": "Brammer_1990_fluconazole_400mg_po_train",
+                "SectionId": 331
+            },
+            {
+                "Project": "Fluconazole",
+                "Simulation": "Brammer_1990_fluconazole_50mg_po_train",
+                "SectionId": 331
+            },
+            {
+                "Project": "Fluconazole",
+                "Simulation": "Brammer_1991_fluconazole_50mg_po_train",
+                "SectionId": 331
+            },
+            {
+                "Project": "Fluconazole",
+                "Simulation": "Shiba_1990_fluconazole_25mg_po_train",
+                "SectionId": 331
+            },
+            {
+                "Project": "Fluconazole",
+                "Simulation": "Shiba_1990_fluconazole_50mg_po_train",
+                "SectionId": 331
+            },
+            {
+                "Project": "Fluconazole",
+                "Simulation": "Thorpe_1990_fluconazole_100mg_po_train",
+                "SectionId": 331
+            },
+            {
+                "Project": "Fluconazole",
+                "Simulation": "Varhe_1996_fluconazole_100mg_po_train",
+                "SectionId": 331
+            },
+            {
+                "Project": "Fluconazole",
+                "Simulation": "Varhe_1996_fluconazole_200mg_po_train",
+                "SectionId": 331
+            }
+        ],
+        "GOFMergedPlots": [
+            {
+                "Title": "Goodness of fit plot for concentration in plasma.",
+                "SectionId": 32,
+                "Artifacts": [
+                    "Plot",
+                    "GMFE",
+                    "Measure"
+                ],
+                "PlotType": "predictedVsObserved|residualsOverTime",
+                "Groups": [
+                    {
+                        "Caption": "Fluconazole iv (model building)",
+                        "Symbol": "Circle",
+                        "OutputMappings": [
+                            {
+                                "Project": "Fluconazole",
+                                "Simulation": "Palkama_1998_fluconazole_400mg_iv_train",
+                                "Output": "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Palkama 1998 - Fluconazole i.v - Fluconazole - IV - 400 mg - Plasma - agg. (n=9)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Fluconazole",
+                                "Simulation": "Ripa_1993_fluconazole_100mg_iv_train",
+                                "Output": "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Ripa 1993 - Fluconazole i.v. - Fluconazole - IV - 100 mg - Plasma - agg. (n=6)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Fluconazole",
+                                "Simulation": "Shiba_1990_fluconazole_50mg_iv_train",
+                                "Output": "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Shiba 1990 - Fluconazole i.v. 50 mg - Fluconazole - IV - 50 mg - Plasma - agg. (n=8)",
+                                "Color": "#000000"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "Fluconazole oral administration (model building)",
+                        "Symbol": "Diamond",
+                        "OutputMappings": [
+                            {
+                                "Project": "Fluconazole",
+                                "Simulation": "Ahonen_1997_fluconazole_400mg_po_train",
+                                "Output": "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Ahonen 1997 - Fluconazole oral - Fluconazole - PO - 400 mg - Plasma - agg. (n=9)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Fluconazole",
+                                "Simulation": "Brammer_1990_fluconazole_200mg_po_train",
+                                "Output": "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Brammer 1990 - Fluconazole MD 200 mg oral - Fluconazole - PO - 200 mg - Plasma - agg. (n=15)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Fluconazole",
+                                "Simulation": "Brammer_1990_fluconazole_300mg_po_train",
+                                "Output": "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Brammer 1990 - Fluconazole MD 300 mg oral - Fluconazole - PO - 300 mg - Plasma - agg. (n=15)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Fluconazole",
+                                "Simulation": "Brammer_1990_fluconazole_400mg_po_train",
+                                "Output": "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Brammer 1990 - Fluconazole MD 400 mg oral - Fluconazole - PO - 400 mg - Plasma - agg. (n=15)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Fluconazole",
+                                "Simulation": "Brammer_1990_fluconazole_50mg_po_train",
+                                "Output": "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Brammer 1990 - Fluconazole SD 50 mg oral - Fluconazole - PO - 50 mg - Plasma - agg. (n=12)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Fluconazole",
+                                "Simulation": "Brammer_1991_fluconazole_50mg_po_train",
+                                "Output": "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Brammer 1991 - Fluconazole 50 mg oral - Fluconazole - PO - 50 mg - Plasma - agg. (n=3)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Fluconazole",
+                                "Simulation": "Shiba_1990_fluconazole_25mg_po_train",
+                                "Output": "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Shiba 1990 - Fluconazole oral 25 mg - Fluconazole - PO - 25 mg - Plasma - agg. (n=8)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Fluconazole",
+                                "Simulation": "Shiba_1990_fluconazole_50mg_po_train",
+                                "Output": "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Shiba 1990 - Fluconazole oral 50 mg - Fluconazole - PO - 50 mg - Plasma - agg. (n=8)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Fluconazole",
+                                "Simulation": "Thorpe_1990_fluconazole_100mg_po_train",
+                                "Output": "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Thorpe 1990 - Fluconazole oral without antacida - Fluconazole - PO - 100 mg - Plasma - agg. (n=14)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Fluconazole",
+                                "Simulation": "Varhe_1996_fluconazole_100mg_po_train",
+                                "Output": "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Varhe 1996 - Fluconazole 100 mg oral - Fluconazole - PO - 100 mg - Plasma - agg. (n=8)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Fluconazole",
+                                "Simulation": "Varhe_1996_fluconazole_200mg_po_train",
+                                "Output": "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Varhe 1996 - Fluconazole 200 mg oral - Fluconazole - PO - 200 mg - Plasma - agg. (n=8)",
+                                "Color": "#000000"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "Fluconazole iv (model verification)",
+                        "Symbol": "Square",
+                        "OutputMappings": [
+                            {
+                                "Project": "Fluconazole",
+                                "Simulation": "Ahonen_1997_fluconazole_400mg_iv_test",
+                                "Output": "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Ahonen 1997 - Fluconazole i.v. - Fluconazole - IV - 400 mg - Plasma - agg. (n=9)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Fluconazole",
+                                "Simulation": "Brammer_1990_fluconazole_50mg_iv_test",
+                                "Output": "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Brammer 1990 - Fluconazole i.v. - Fluconazole - IV - 50 mg - Plasma - agg. (n=12)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Fluconazole",
+                                "Simulation": "Shiba_1990_fluconazole_25mg_iv_test",
+                                "Output": "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Shiba 1990 - Fluconazole i.v. 25 mg - Fluconazole - IV - 25 mg - Plasma - agg. (n=8)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Fluconazole",
+                                "Simulation": "Sobue_2004_fluconazole_800mg_iv_test",
+                                "Output": "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Sobue 2004 - Fluconazole i.v. - Fluconazole - IV - 800 mg - Plasma - agg. (n=18)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Fluconazole",
+                                "Simulation": "Yeates_1994_fluconazole_100mg_iv_test",
+                                "Output": "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Yeates 1994 - Fluconazole i.v. healthy - Fluconazole - IV - 100 mg - Plasma - agg. (n=10)",
+                                "Color": "#000000"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "Fluconazole oral administration (model verification)",
+                        "Symbol": "Triangle",
+                        "OutputMappings": [
+                            {
+                                "Project": "Fluconazole",
+                                "Simulation": "Palkama_1998_fluconazole_400mg_po_test",
+                                "Output": "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Palkama 1998 - Fluconazole oral - Fluconazole - PO - 400 mg - Plasma - agg. (n=9)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Fluconazole",
+                                "Simulation": "Shiba_1990_fluconazole_100mg_po_test",
+                                "Output": "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Shiba 1990 - Fluconazole oral 100 mg - Fluconazole - PO - 100 mg - Plasma - agg. (n=6)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Fluconazole",
+                                "Simulation": "Varhe_1996_fluconazole_50mg_po_test",
+                                "Output": "Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Varhe 1996 - Fluconazole 50 mg oral - Fluconazole - PO - 50 mg - Plasma - agg. (n=8)",
+                                "Color": "#000000"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "ComparisonTimeProfilePlots": [],
+        "DDIRatioPlots": [],
+        "PKRatioPlots": []
+    },
+    "Inputs": [
+        {
+            "Project": "Fluconazole",
+            "Name": "Fluconazole",
+            "Type": "Compound",
+            "SectionId": 31
+        },
+        {
+            "Name": "Fluconazole_Weibull_high dose",
+            "Project": "Fluconazole",
+            "Type": "Formulation",
+            "SectionId": 31
+        },
+        {
+            "Name": "Fluconazole_Weibull_low dose",
+            "Project": "Fluconazole",
+            "Type": "Formulation",
+            "SectionId": 31
+        },
+        {
+            "Name": "Fluconazole_Weibull_medium high dose",
+            "Project": "Fluconazole",
+            "Type": "Formulation",
+            "SectionId": 31
+        }
+    ],
+    "Sections": [
+        {
+            "Id": 1,
+            "Title": "1 Introduction",
+            "Content": "Content/Section1_Introduction.md"
+        },
+        {
+            "Id": 2,
+            "Title": "2 Methods",
+            "Content": "Content/Section2_Methods.md",
+            "Sections": [
+                {
+                    "Id": 21,
+                    "Content": "Content/Section2.1_Modeling_Strategy.md",
+                    "Title": "2.1 Modeling strategy"
+                },
+                {
+                    "Id": 22,
+                    "Content": "Content/Section2.2_Data.md",
+                    "Title": "2.2 Data used"
+                },
+                {
+                    "Id": 23,
+                    "Content": "Content/Section2.3_Model_Parameters_and_Assumptions.md",
+                    "Title": "2.3 Model parameters and assumptions"
+                }
+            ]
+        },
+        {
+            "Id": 3,
+            "Content": "Content/Section3_Results_and_Discussion.md",
+            "Title": "3 Results and Discussion",
+            "Sections": [
+                {
+                    "Id": 31,
+                    "Content": "Content/Input_table.md",
+                    "Title": "3.1 Fluconazole final input parameters"
+                },
+                {
+                    "Id": 32,
+                    "Content": "Content/GOF_diagnostics.md",
+                    "Title": "3.2 Fluconazole Diagnostics Plots"
+                },
+                {
+                    "Id": 33,
+                    "Title": "3.3 Concentration-Time Profiles",
+                    "Content": "Content/Concentration_time_profiles.md",
+                    "Sections": [
+                        {
+                            "Id": 331,
+                            "Title": "3.3.1 Model Building",
+                            "Content": "Content/Concentration_time_profiles_building.md"
+                        },
+                        {
+                            "Id": 332,
+                            "Title": "3.3.2 Model Verification",
+                            "Content": "Content/Concentration_time_profiles_verification.md"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": 4,
+            "Content": "Content/Section4_Conclusion.md",
+            "Title": "4 Conclusion"
+        },
+        {
+            "Id": 5,
+            "Content": "Content/References.md",
+            "Title": "5 References"
+        }
+    ],
+    "Intro": [
+        {
+            "Path": "Content/titlepage.md"
+        }
+    ]
+}
