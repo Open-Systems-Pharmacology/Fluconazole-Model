@@ -9,6 +9,7 @@ The model quantifies excretion via urine (glomerular filtration) and metabolism 
 
 The next sections show:
 
-1. the final model input parameters for the building blocks: [Section 3.1](#31-Final-Input-Parameters).
-2. the overall goodness of fit: [Section 3.2](#32-Diagnostics-Plots).
-3. simulated vs. observed concentration-time profiles for the clinical studies used for model building and for model verification: [Section 3.3](#33-Concentration-Time-Profiles).
+1. the final model input parameters for the building blocks: [Section 3.1](#31-fluconazole-final-input-parameters).
+2. the overall goodness of fit: [Section 3.2](#32-fluconazole-diagnostics-plots).
+3. simulated vs. observed concentration-time profiles for the clinical studies used for model building and for model verification: [Section 3.3](#33-concentration-time-profiles).
+
