@@ -5,16 +5,21 @@
 close all
 tic
 
-% --------------------------------------------------------------
-% replace qualificationRunnerFolder and markdownJoinerFolder with your paths
-qualificationRunnerFolder = 'C:\Users\johanna\Documents\OSP suite qualification\QualificationRunner 9.1.1';
-markdownJoinerFolder = 'C:\Users\johanna\Documents\OSP suite qualification\markdown-joiner_1.2.0.8';
+if exist(fullfile(cd,'re_input'),'dir')>0 rmdir(fullfile(cd,'re_input'),'s'); end
+if exist(fullfile(cd,'re_output'),'dir')>0 rmdir(fullfile(cd,'re_output'),'s'); end
+if exist(fullfile(cd,'report'),'dir')>0 rmdir(fullfile(cd,'report'),'s'); end
 
 % --------------------------------------------------------------
-% replace basisDir and qualificationPlanName with your paths
+% replace qualificationRunnerFolder and markdownJoinerFolder with your paths
+qualificationRunnerFolder = 'C:\Software\QualificationRunner';
+markdownJoinerFolder = 'C:\Software\markdown-joiner';
+PKSimPortableFolder = 'C:\Software\PKSimPortable';
+
+% --------------------------------------------------------------
+% replace baseDir and qualificationPlanName with your paths
 %
 % assuming the following structure
-%   basisDir
+%   baseDir
 %   - input
 %      - qualificationPlanName
 %   - re_input
@@ -22,7 +27,7 @@ markdownJoinerFolder = 'C:\Users\johanna\Documents\OSP suite qualification\markd
 %   - report
 %
 
-basisDir = 'C:\PMX\Projects\BI\BI-FTE5-GLYT1-PMX-1\Analysis\PBPK\Fluconazole-Mdz\Fluconazole-Mdz\OSP_qualification\Fluconazole-Model\Evaluation';
+baseDir = fullfile(cd);
 qualificationPlanName = 'evaluation_plan.json';
 
 % In case your folder structure is different from assumed above, 
@@ -35,14 +40,14 @@ qualificationPlanName = 'evaluation_plan.json';
 %                  CAUTION: if the folder is not empty, its contents will be deleted
 %
 % - ReportOutput_path: final report will be generated here
-qualificationPlan = fullfile(basisDir,'input',qualificationPlanName);
-REInput_path = fullfile(basisDir,'re_input');
-REOutput_path = fullfile(basisDir,'re_output');
-ReportOutput_path=fullfile(basisDir,'report');
+qualificationPlan = fullfile(baseDir,'input',qualificationPlanName);
+REInput_path = fullfile(baseDir,'re_input');
+REOutput_path = fullfile(baseDir,'re_output');
+ReportOutput_path=fullfile(baseDir,'report');
 
 % --------------------------------------------------------------
 % STEP #1: start qualification runner to generate inputs for the reporting engine
-startQualificationRunner(qualificationRunnerFolder, qualificationPlan, REInput_path);
+startQualificationRunner(qualificationRunnerFolder, qualificationPlan, REInput_path, ['-p ' PKSimPortableFolder]);
 
 % --------------------------------------------------------------
 % STEP #2: start reporting engine
@@ -51,7 +56,7 @@ reportConfigurationPlan = 'report-configuration-plan.json';
 [WSettings, ConfigurationPlan, TaskList, ObservedDataSets] = initializeQualificationWorkflow(reportConfigurationPlan, REInput_path, REOutput_path);
 
 %OPTIONAL: set watermark. If set, it will appear in all generated plots
-%WSettings.Watermark = 'Preliminary';
+WSettings.Watermark = '';
 
 % run the Worklfow tasklist of ConfigurationPlan
 runQualificationWorkflow(WSettings, ConfigurationPlan, TaskList, ObservedDataSets);
@@ -70,3 +75,4 @@ status = system(['"' MarkdownJoiner_path '" -i "' REOutput_path '" -o "' ReportO
 %status = system(['"' MarkdownJoiner_path '" -i "' REOutput_path '" -o "' ReportOutput_path '" -f']);
 
 if status~=0 error('MarkdownJoiner failed'); end
+
