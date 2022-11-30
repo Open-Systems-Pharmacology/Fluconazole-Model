@@ -828,12 +828,12 @@
         },
         {
           "InternalName": "NoncompetitiveInhibition",
-          "DataSource": "Watt2018",
+          "DataSource": "Sakaeda2005",
           "Molecule": "CYP3A4",
           "Parameters": [
             {
               "Name": "Ki",
-              "Value": 10.7,
+              "Value": 13.1,
               "Unit": "µmol/l"
             }
           ]
