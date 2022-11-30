@@ -13,7 +13,7 @@ A literature search was performed to collect available information on physicoche
 |                         | %        | 88        | [Christofoletti 2016](#5-references) | Fraction unbound in plasma                                   |
 | CL<sub>int</sub> UGT2B7 | 1/min    | 0.005     | [Watt 2018](#5-references)           | First order intrinsic clearance UGT2B7                       |
 | P<sub>eff</sub>         | cm/s     | 0.000213  | GastroPlus                           | Specific intestinal permeability                             |
-| Ki CYP3A4               | µmol/L   | 10.70     | [Watt 2018](#5-references)           | Non-competitive inhibition of CYP3A4                         |
+| Ki CYP3A4               | µmol/L   | 13.1     | [Sakaeda 2005](#5-references)           | Non-competitive inhibition of CYP3A4                         |
 | GFR fraction            |          | 0.17      | [Watt 2018](#5-references)           | glomerular filtration fraction                               |
 
 ### 2.2.2 Clinical data
