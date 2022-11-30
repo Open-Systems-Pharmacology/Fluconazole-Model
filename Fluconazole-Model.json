@@ -1,5 +1,1097 @@
 {
-  "Version": 77,
+  "Version": 79,
+  "ExpressionProfiles": [
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP3A4",
+      "Category": "Standard European Male for DDI",
+      "Parameters": [
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 4.32,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0041682898325
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00078691079081
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0053603428126
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00042695753798
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP3A4"
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "AADAC",
+      "Category": "Standard European Male for DDI",
+      "Parameters": [
+        {
+          "Path": "AADAC|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "AADAC|Relative expression in blood cells",
+          "Value": 3.9102564103E-05
+        },
+        {
+          "Path": "AADAC|Relative expression in plasma",
+          "Value": 3.9102564103E-05
+        },
+        {
+          "Path": "AADAC|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "AADAC|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Bone|Intracellular|AADAC|Relative expression",
+          "Value": 4.8717948718E-05
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|AADAC|Relative expression",
+          "Value": 3.9743589744E-05
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|AADAC|Relative expression",
+          "Value": 0.0011923076923
+        },
+        {
+          "Path": "Organism|Heart|Intracellular|AADAC|Relative expression",
+          "Value": 0.0026602564103
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|AADAC|Relative expression",
+          "Value": 5.7051282051E-05
+        },
+        {
+          "Path": "Organism|LargeIntestine|Intracellular|AADAC|Relative expression",
+          "Value": 0.00010384615385
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|AADAC|Relative expression",
+          "Value": 0.00010384615385
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|AADAC|Relative expression",
+          "Value": 0.00010384615385
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|AADAC|Relative expression",
+          "Value": 0.00010384615385
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|AADAC|Relative expression",
+          "Value": 0.00010384615385
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|AADAC|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|AADAC|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|AADAC|Relative expression",
+          "Value": 0.0269230769
+        },
+        {
+          "Path": "Organism|Muscle|Intracellular|AADAC|Relative expression",
+          "Value": 0.00020833333333
+        },
+        {
+          "Path": "Organism|Pancreas|Intracellular|AADAC|Relative expression",
+          "Value": 0.1474358974
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|AADAC|Relative expression",
+          "Value": 0.2544871795
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|AADAC|Relative expression",
+          "Value": 0.2544871795
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|AADAC|Relative expression",
+          "Value": 0.2544871795
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|AADAC|Relative expression",
+          "Value": 0.2544871795
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|AADAC|Relative expression",
+          "Value": 0.2544871795
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|AADAC|Relative expression",
+          "Value": 0.2544871795
+        },
+        {
+          "Path": "Organism|Spleen|Intracellular|AADAC|Relative expression",
+          "Value": 0.00037115384615
+        },
+        {
+          "Path": "Organism|Stomach|Intracellular|AADAC|Relative expression",
+          "Value": 0.0775641026
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP3A5",
+      "Category": "Standard European Male for DDI",
+      "Parameters": [
+        {
+          "Path": "CYP3A5|Reference concentration",
+          "Value": 0.04,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A5|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP3A5|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.0041810344828
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.1681034483
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A5|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A5|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.1620689655
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.5379310345
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.5379310345
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.5379310345
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.5379310345
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.5379310345
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.5379310345
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP3A5"
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP2C9",
+      "Category": "Standard European Male for DDI",
+      "Parameters": [
+        {
+          "Path": "CYP2C9|Reference concentration",
+          "Value": 3.84,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2C9|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP2C9|t1/2 (liver)",
+          "Value": 104.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.00039687350455
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2C9|Relative expression",
+          "Value": 4.5940341362E-05
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.0018822778753
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2C9|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2C9|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.0002131121391
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP2C9"
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP1A2",
+      "Category": "Standard European Male for DDI",
+      "Parameters": [
+        {
+          "Path": "CYP1A2|Reference concentration",
+          "Value": 1.8,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (liver)",
+          "Value": 39.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP1A2|Relative expression",
+          "Value": 0.00029559748428
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
+          "Value": 4.4025157233E-06
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP1A2|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP1A2|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
+          "Value": 2.4947589099E-05
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP1A2"
+      }
+    },
+    {
+      "Type": "Transporter",
+      "Species": "Human",
+      "Molecule": "ABCB1",
+      "Category": "Standard European Male for DDI",
+      "Parameters": [
+        {
+          "Path": "ABCB1|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "ABCB1|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "ABCB1|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Bone|Intracellular|ABCB1|Relative expression",
+          "Value": 0.0341950646
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|ABCB1|Relative expression",
+          "Value": 0.1072855464
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|ABCB1|Relative expression",
+          "Value": 0.024559342
+        },
+        {
+          "Path": "Organism|Heart|Intracellular|ABCB1|Relative expression",
+          "Value": 0.059106933
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|ABCB1|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|LargeIntestine|Intracellular|ABCB1|Relative expression",
+          "Value": 0.1562867215
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|ABCB1|Relative expression",
+          "Value": 0.1562867215
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|ABCB1|Relative expression",
+          "Value": 0.1562867215
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|ABCB1|Relative expression",
+          "Value": 0.1562867215
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|ABCB1|Relative expression",
+          "Value": 0.1562867215
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|ABCB1|Relative expression",
+          "Value": 0.2702702703
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|ABCB1|Relative expression",
+          "Value": 0.2702702703
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|ABCB1|Relative expression",
+          "Value": 0.0927144536
+        },
+        {
+          "Path": "Organism|Muscle|Intracellular|ABCB1|Relative expression",
+          "Value": 0.0180963572
+        },
+        {
+          "Path": "Organism|Pancreas|Intracellular|ABCB1|Relative expression",
+          "Value": 0.0200940071
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|ABCB1|Relative expression",
+          "Value": 0.3960047004
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|ABCB1|Relative expression",
+          "Value": 0.3960047004
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|ABCB1|Relative expression",
+          "Value": 0.3960047004
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|ABCB1|Relative expression",
+          "Value": 0.3960047004
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|ABCB1|Relative expression",
+          "Value": 0.3960047004
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|ABCB1|Relative expression",
+          "Value": 0.3960047004
+        },
+        {
+          "Path": "Organism|Spleen|Intracellular|ABCB1|Relative expression",
+          "Value": 0.1047003525
+        },
+        {
+          "Path": "Organism|Stomach|Intracellular|ABCB1|Relative expression",
+          "Value": 0.0367802585
+        }
+      ],
+      "TransportType": "Efflux",
+      "Expression": [
+        {
+          "Name": "Bone",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "EffluxBrainInterstitialToPlasma",
+          "CompartmentName": "Plasma"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "EffluxBrainTissueToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Fat",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Gonads",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Heart",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "ExcretionKidney",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Stomach",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "SmallIntestine",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LargeIntestine",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Lung",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Muscle",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pancreas",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Skin",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Spleen",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "BloodCells",
+          "TransportDirection": "EffluxBloodCellsToPlasma"
+        },
+        {
+          "Name": "VascularEndothelium",
+          "TransportDirection": "EffluxInterstitialToPlasma"
+        }
+      ]
+    },
+    {
+      "Type": "Transporter",
+      "Species": "Human",
+      "Molecule": "OATP1B1",
+      "Category": "Standard European Male for DDI",
+      "Parameters": [
+        {
+          "Path": "OATP1B1|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "OATP1B1|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "OATP1B1|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|OATP1B1|Relative expression",
+          "Value": 0.00014166666667
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|OATP1B1|Relative expression",
+          "Value": 0.0141666667
+        },
+        {
+          "Path": "Organism|Heart|Intracellular|OATP1B1|Relative expression",
+          "Value": 0.0008253968254
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|OATP1B1|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|OATP1B1|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|OATP1B1|Relative expression",
+          "Value": 4.0079365079E-05
+        },
+        {
+          "Path": "Organism|Muscle|Intracellular|OATP1B1|Relative expression",
+          "Value": 0.00064682539683
+        }
+      ],
+      "TransportType": "Influx",
+      "Expression": [
+        {
+          "Name": "Bone",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "InfluxBrainPlasmaToInterstitial",
+          "CompartmentName": "Plasma"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "InfluxBrainInterstitialToTissue",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Fat",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Gonads",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Heart",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "ExcretionKidney",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Stomach",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "SmallIntestine",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LargeIntestine",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Lung",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Muscle",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pancreas",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Skin",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Spleen",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "BloodCells",
+          "TransportDirection": "InfluxPlasmaToBloodCells"
+        },
+        {
+          "Name": "VascularEndothelium",
+          "TransportDirection": "InfluxPlasmaToInterstitial"
+        }
+      ]
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "UGT2B7",
+      "Category": "Standard European Male for DDI",
+      "Parameters": [
+        {
+          "Path": "Organism|Gonads|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.00094468085106
+        },
+        {
+          "Path": "Organism|LargeIntestine|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.0049787234043
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.0049787234043
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.0049787234043
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.0049787234043
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.0049787234043
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|UGT2B7|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|UGT2B7|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Pancreas|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.0354468085
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.5361702128
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.5361702128
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.5361702128
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.5361702128
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.5361702128
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.5361702128
+        },
+        {
+          "Path": "UGT2B7|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "UGT2B7|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "UGT2B7|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "UGT2B7"
+      }
+    }
+  ],
   "Individuals": [
     {
       "Name": "Standard European Male for DDI",
@@ -17,699 +1109,15 @@
           "Unit": "year(s)"
         }
       },
-      "Molecules": [
-        {
-          "Name": "CYP3A4",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Brain",
-              "Value": 0.0041682898325
-            },
-            {
-              "Name": "Gonads",
-              "Value": 0.00078691079081
-            },
-            {
-              "Name": "Kidney",
-              "Value": 0.0053603428126
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.00042695753798
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.0727697702
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.0727697702
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.0727697702
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.0727697702
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.0727697702
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.0727697702
-            }
-          ],
-          "Ontogeny": {
-            "Name": "CYP3A4"
-          },
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 4.32,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 36.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "AADAC",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "BloodCells",
-              "Value": 3.9102564103E-05
-            },
-            {
-              "Name": "Plasma",
-              "Value": 3.9102564103E-05
-            },
-            {
-              "Name": "Bone",
-              "Value": 4.8717948718E-05
-            },
-            {
-              "Name": "Brain",
-              "Value": 3.9743589744E-05
-            },
-            {
-              "Name": "Gonads",
-              "Value": 0.0011923076923
-            },
-            {
-              "Name": "Heart",
-              "Value": 0.0026602564103
-            },
-            {
-              "Name": "Kidney",
-              "Value": 5.7051282051E-05
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.0269230769
-            },
-            {
-              "Name": "Muscle",
-              "Value": 0.00020833333333
-            },
-            {
-              "Name": "Pancreas",
-              "Value": 0.1474358974
-            },
-            {
-              "Name": "Spleen",
-              "Value": 0.00037115384615
-            },
-            {
-              "Name": "Stomach",
-              "Value": 0.0775641026
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.2544871795
-            },
-            {
-              "Name": "LargeIntestine",
-              "Value": 0.00010384615385
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.2544871795
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.2544871795
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.2544871795
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.2544871795
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.2544871795
-            },
-            {
-              "Name": "ColonAscendens",
-              "Value": 0.00010384615385
-            },
-            {
-              "Name": "ColonTransversum",
-              "Value": 0.00010384615385
-            },
-            {
-              "Name": "ColonDescendens",
-              "Value": 0.00010384615385
-            },
-            {
-              "Name": "ColonSigmoid",
-              "Value": 0.00010384615385
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 1.0,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 36.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "CYP3A5",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Brain",
-              "Value": 0.0041810344828
-            },
-            {
-              "Name": "Kidney",
-              "Value": 0.1681034483
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.1620689655
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.5379310345
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.5379310345
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.5379310345
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.5379310345
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.5379310345
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.5379310345
-            }
-          ],
-          "Ontogeny": {
-            "Name": "CYP3A5"
-          },
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 0.04,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 36.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "CYP2C9",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Brain",
-              "Value": 0.00039687350455
-            },
-            {
-              "Name": "Gonads",
-              "Value": 4.5940341362E-05
-            },
-            {
-              "Name": "Kidney",
-              "Value": 0.0018822778753
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.0002131121391
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.1199553358
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.1199553358
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.1199553358
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.1199553358
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.1199553358
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.1199553358
-            }
-          ],
-          "Ontogeny": {
-            "Name": "CYP2C9"
-          },
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 3.84,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 104.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "CYP1A2",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Gonads",
-              "Value": 0.00029559748428
-            },
-            {
-              "Name": "Kidney",
-              "Value": 4.4025157233E-06
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 2.4947589099E-05
-            }
-          ],
-          "Ontogeny": {
-            "Name": "CYP1A2"
-          },
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 1.8,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 39.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "ABCB1",
-          "Type": "Transporter",
-          "TransportType": "Efflux",
-          "Expression": [
-            {
-              "Name": "Bone",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0341950646
-            },
-            {
-              "Name": "Brain",
-              "MembraneLocation": "BloodBrainBarrier",
-              "Value": 0.1072855464
-            },
-            {
-              "Name": "Gonads",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.024559342
-            },
-            {
-              "Name": "Heart",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.059106933
-            },
-            {
-              "Name": "Kidney",
-              "MembraneLocation": "Apical",
-              "Value": 1.0
-            },
-            {
-              "Name": "Periportal",
-              "MembraneLocation": "Apical",
-              "Value": 0.2702702703
-            },
-            {
-              "Name": "Pericentral",
-              "MembraneLocation": "Apical",
-              "Value": 0.2702702703
-            },
-            {
-              "Name": "Lung",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0927144536
-            },
-            {
-              "Name": "Muscle",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0180963572
-            },
-            {
-              "Name": "Pancreas",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0200940071
-            },
-            {
-              "Name": "Spleen",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.1047003525
-            },
-            {
-              "Name": "Stomach",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0367802585
-            },
-            {
-              "Name": "SmallIntestine",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.3960047004
-            },
-            {
-              "Name": "LargeIntestine",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.1562867215
-            },
-            {
-              "Name": "Duodenum",
-              "MembraneLocation": "Apical",
-              "Value": 0.3960047004
-            },
-            {
-              "Name": "UpperJejunum",
-              "MembraneLocation": "Apical",
-              "Value": 0.3960047004
-            },
-            {
-              "Name": "LowerJejunum",
-              "MembraneLocation": "Apical",
-              "Value": 0.3960047004
-            },
-            {
-              "Name": "UpperIleum",
-              "MembraneLocation": "Apical",
-              "Value": 0.3960047004
-            },
-            {
-              "Name": "LowerIleum",
-              "MembraneLocation": "Apical",
-              "Value": 0.3960047004
-            },
-            {
-              "Name": "ColonAscendens",
-              "MembraneLocation": "Apical",
-              "Value": 0.1562867215
-            },
-            {
-              "Name": "ColonTransversum",
-              "MembraneLocation": "Apical",
-              "Value": 0.1562867215
-            },
-            {
-              "Name": "ColonDescendens",
-              "MembraneLocation": "Apical",
-              "Value": 0.1562867215
-            },
-            {
-              "Name": "ColonSigmoid",
-              "MembraneLocation": "Apical",
-              "Value": 0.1562867215
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 1.0,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 36.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "OATP1B1",
-          "Type": "Transporter",
-          "TransportType": "Influx",
-          "Expression": [
-            {
-              "Name": "Brain",
-              "MembraneLocation": "BloodBrainBarrier",
-              "Value": 0.00014166666667
-            },
-            {
-              "Name": "Gonads",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0141666667
-            },
-            {
-              "Name": "Heart",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0008253968254
-            },
-            {
-              "Name": "Periportal",
-              "MembraneLocation": "Basolateral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "MembraneLocation": "Basolateral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "MembraneLocation": "Basolateral",
-              "Value": 4.0079365079E-05
-            },
-            {
-              "Name": "Muscle",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.00064682539683
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 1.0,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 36.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "UGT2B7",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Gonads",
-              "Value": 0.00094468085106
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pancreas",
-              "Value": 0.0354468085
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.5361702128
-            },
-            {
-              "Name": "LargeIntestine",
-              "Value": 0.0049787234043
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.5361702128
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.5361702128
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.5361702128
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.5361702128
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.5361702128
-            },
-            {
-              "Name": "ColonAscendens",
-              "Value": 0.0049787234043
-            },
-            {
-              "Name": "ColonTransversum",
-              "Value": 0.0049787234043
-            },
-            {
-              "Name": "ColonDescendens",
-              "Value": 0.0049787234043
-            },
-            {
-              "Name": "ColonSigmoid",
-              "Value": 0.0049787234043
-            }
-          ],
-          "Ontogeny": {
-            "Name": "UGT2B7"
-          },
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 1.0,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 36.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
-        }
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Standard European Male for DDI",
+        "AADAC|Human|Standard European Male for DDI",
+        "CYP3A5|Human|Standard European Male for DDI",
+        "CYP2C9|Human|Standard European Male for DDI",
+        "CYP1A2|Human|Standard European Male for DDI",
+        "ABCB1|Human|Standard European Male for DDI",
+        "OATP1B1|Human|Standard European Male for DDI",
+        "UGT2B7|Human|Standard European Male for DDI"
       ],
       "Description": "Version 1.1"
     }
@@ -833,7 +1241,7 @@
           "Parameters": [
             {
               "Name": "Ki",
-              "Value": 10.7,
+              "Value": 13.1,
               "Unit": "µmol/l"
             }
           ]
@@ -1121,6 +1529,22 @@
                 }
               ]
             }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h"
+            }
           ]
         }
       ],
@@ -1295,6 +1719,22 @@
                 }
               ]
             }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h"
+            }
           ]
         }
       ],
@@ -1331,6 +1771,11 @@
             }
           ],
           "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
             {
               "Name": "NumberOfRepetitions",
               "Value": 14.0,
@@ -1405,6 +1850,11 @@
           ],
           "Parameters": [
             {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
               "Name": "NumberOfRepetitions",
               "Value": 14.0,
               "ValueOrigin": {
@@ -1455,6 +1905,11 @@
             }
           ],
           "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
             {
               "Name": "NumberOfRepetitions",
               "Value": 14.0,
@@ -1529,6 +1984,11 @@
           ],
           "Parameters": [
             {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
               "Name": "NumberOfRepetitions",
               "Value": 4.0,
               "ValueOrigin": {
@@ -1580,6 +2040,11 @@
           ],
           "Parameters": [
             {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
               "Name": "NumberOfRepetitions",
               "Value": 4.0,
               "ValueOrigin": {
@@ -1630,6 +2095,15 @@
             }
           ],
           "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 24.0,
@@ -1873,7 +2347,24 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "fluconazole_final_JE\nPalkama_1998_fluconazole_400mg_iv_train\n2021-07-14 10:16"
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluconazole\nPalkama_1998_fluconazole_400mg_iv_train\n2022-11-30 09:38"
         }
       ],
       "Interactions": [
@@ -2038,7 +2529,24 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "fluconazole_final_JE\nRipa_1993_fluconazole_100mg_iv_train\n2021-07-14 10:16"
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluconazole\nRipa_1993_fluconazole_100mg_iv_train\n2022-11-30 09:38"
         }
       ],
       "Interactions": [
@@ -2239,7 +2747,24 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "fluconazole_final_JE\nShiba_1990_fluconazole_50mg_iv_train\n2021-07-14 10:16"
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluconazole\nShiba_1990_fluconazole_50mg_iv_train\n2022-11-30 09:38"
         }
       ],
       "Interactions": [
@@ -2404,7 +2929,24 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "fluconazole_final_JE\nAhonen_1997_fluconazole_400mg_iv_test\n2021-07-14 10:14"
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluconazole\nAhonen_1997_fluconazole_400mg_iv_test\n2022-11-30 09:36"
         }
       ],
       "Interactions": [
@@ -2569,7 +3111,24 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "fluconazole_final_JE\nBrammer_1990_fluconazole_50mg_iv_test\n2021-07-14 10:14"
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluconazole\nBrammer_1990_fluconazole_50mg_iv_test\n2022-11-30 09:37"
         }
       ],
       "Interactions": [
@@ -2770,7 +3329,24 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "fluconazole_final_JE\nShiba_1990_fluconazole_25mg_iv_test\n2021-07-14 10:14"
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluconazole\nShiba_1990_fluconazole_25mg_iv_test\n2022-11-30 09:37"
         }
       ],
       "Interactions": [
@@ -3000,7 +3576,24 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "fluconazole_final_JE\nSobue_2004_fluconazole_800mg_iv_test\n2021-07-14 10:15"
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluconazole\nSobue_2004_fluconazole_800mg_iv_test\n2022-11-30 09:37"
         }
       ],
       "Interactions": [
@@ -3165,7 +3758,24 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "fluconazole_final_JE\nYeates_1994_fluconazole_100mg_iv_test\n2021-07-14 10:15"
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluconazole\nYeates_1994_fluconazole_100mg_iv_test\n2022-11-30 09:38"
         }
       ],
       "Interactions": [
@@ -3336,7 +3946,24 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "fluconazole_final_JE\nAhonen_1997_fluconazole_400mg_po_train\n2021-07-13 18:03"
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluconazole\nAhonen_1997_fluconazole_400mg_po_train\n2022-11-30 09:39"
         }
       ],
       "Interactions": [
@@ -3479,7 +4106,7 @@
               "GridLines": false,
               "Visible": true,
               "Min": 0.1,
-              "Max": 3.36885667,
+              "Max": 3.368857,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -3509,7 +4136,24 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "fluconazole_final_JE\nBrammer_1990_fluconazole_50mg_po_train\n2021-07-13 18:05"
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluconazole\nBrammer_1990_fluconazole_50mg_po_train\n2022-11-30 09:42"
         }
       ],
       "Interactions": [
@@ -3680,7 +4324,24 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "fluconazole_final_JE\nBrammer_1991_fluconazole_50mg_po_train\n2021-07-13 18:05"
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluconazole\nBrammer_1991_fluconazole_50mg_po_train\n2022-11-30 09:41"
         }
       ],
       "Interactions": [
@@ -3887,7 +4548,24 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "fluconazole_final_JE\nShiba_1990_fluconazole_50mg_po_train\n2021-07-13 18:06"
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluconazole\nShiba_1990_fluconazole_50mg_po_train\n2022-11-30 09:42"
         }
       ],
       "Interactions": [
@@ -4094,7 +4772,24 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "fluconazole_final_JE\nShiba_1990_fluconazole_25mg_po_train\n2021-07-13 18:05"
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluconazole\nShiba_1990_fluconazole_25mg_po_train\n2022-11-30 09:41"
         }
       ],
       "Interactions": [
@@ -4265,7 +4960,24 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "fluconazole_final_JE\nThorpe_1990_fluconazole_100mg_po_train\n2021-07-13 18:06"
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluconazole\nThorpe_1990_fluconazole_100mg_po_train\n2022-11-30 09:42"
         }
       ],
       "Interactions": [
@@ -4423,7 +5135,7 @@
               "GridLines": false,
               "Visible": true,
               "Min": 0.1,
-              "Max": 16.6772346,
+              "Max": 16.67723,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -4453,6 +5165,23 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "fluconazole_final_JE\nVarhe_1996_fluconazole_100mg_po_train\n2021-07-13 18:06"
         }
       ],
@@ -4641,7 +5370,24 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "fluconazole_final_JE\nVarhe_1996_fluconazole_200mg_po_train\n2021-07-13 18:06"
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluconazole\nVarhe_1996_fluconazole_200mg_po_train\n2022-11-30 09:43"
         }
       ],
       "Interactions": [
@@ -4812,7 +5558,24 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "fluconazole_final_JE\nPalkama_1998_fluconazole_400mg_po_test\n2021-07-14 10:17"
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluconazole\nPalkama_1998_fluconazole_400mg_po_test\n2022-11-30 09:38"
         }
       ],
       "Interactions": [
@@ -4983,7 +5746,24 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "fluconazole_final_JE\nShiba_1990_fluconazole_100mg_po_test\n2021-07-14 10:19"
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluconazole\nShiba_1990_fluconazole_100mg_po_test\n2022-11-30 09:39"
         }
       ],
       "Interactions": [
@@ -5169,7 +5949,24 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "fluconazole_final_JE\nVarhe_1996_fluconazole_50mg_po_test\n2021-07-14 10:21"
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluconazole\nVarhe_1996_fluconazole_50mg_po_test\n2022-11-30 09:39"
         }
       ],
       "Interactions": [
@@ -5377,7 +6174,7 @@
               "GridLines": false,
               "Visible": true,
               "Min": 0.1,
-              "Max": 29.4856682,
+              "Max": 29.48567,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -5407,7 +6204,24 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Fluconazole-Model\nBrammer_1990_fluconazole_200mg_po_train\n2021-08-23 09:35"
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluconazole\nBrammer_1990_fluconazole_200mg_po_train\n2022-11-30 09:39"
         }
       ],
       "Interactions": [
@@ -5615,7 +6429,7 @@
               "GridLines": false,
               "Visible": true,
               "Min": 0.1,
-              "Max": 43.3947639,
+              "Max": 43.39476,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -5645,7 +6459,24 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Fluconazole-Model\nBrammer_1990_fluconazole_300mg_po_train\n2021-08-23 09:36"
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluconazole\nBrammer_1990_fluconazole_300mg_po_train\n2022-11-30 09:40"
         }
       ],
       "Interactions": [
@@ -5853,7 +6684,7 @@
               "GridLines": false,
               "Visible": true,
               "Min": 0.1,
-              "Max": 57.8593254,
+              "Max": 57.85933,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -5883,7 +6714,24 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Fluconazole-Model\nBrammer_1990_fluconazole_400mg_po_train\n2021-08-23 09:36"
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluconazole\nBrammer_1990_fluconazole_400mg_po_train\n2022-11-30 09:40"
         }
       ],
       "Interactions": [
@@ -6153,7 +7001,24 @@
                 }
               }
             ],
-            "Name": "Time Profile"
+            "Name": "Time Profile",
+            "FontAndSize": {
+              "Fonts": {
+                "AxisSize": 10,
+                "LegendSize": 8,
+                "TitleSize": 16,
+                "DescriptionSize": 12,
+                "OriginSize": 8,
+                "FontFamilyName": "Microsoft Sans Serif",
+                "WatermarkSize": 32
+              }
+            },
+            "Settings": {
+              "SideMarginsEnabled": true,
+              "LegendPosition": "RightInside",
+              "BackColor": "#00FFFFFF",
+              "DiagramBackColor": "#FFFFFF"
+            }
           }
         }
       ]
@@ -6702,7 +7567,24 @@
                 }
               }
             ],
-            "Name": "Time Profile"
+            "Name": "Time Profile",
+            "FontAndSize": {
+              "Fonts": {
+                "AxisSize": 10,
+                "LegendSize": 8,
+                "TitleSize": 16,
+                "DescriptionSize": 12,
+                "OriginSize": 8,
+                "FontFamilyName": "Microsoft Sans Serif",
+                "WatermarkSize": 32
+              }
+            },
+            "Settings": {
+              "SideMarginsEnabled": true,
+              "LegendPosition": "RightInside",
+              "BackColor": "#00FFFFFF",
+              "DiagramBackColor": "#FFFFFF"
+            }
           }
         },
         {
@@ -6800,13 +7682,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Brammer 1991 - Fluconazole 50 mg oral - Fluconazole - PO - 50 mg - Plasma - agg. (n=3)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 306.33
               },
               "Values": [
@@ -6825,13 +7705,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Brammer 1991 - Fluconazole 50 mg oral - Fluconazole - PO - 50 mg - Plasma - agg. (n=3)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 306.33
           },
           "Values": [
@@ -6852,14 +7730,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Brammer 1991 - Fluconazole 50 mg oral - Fluconazole - PO - 50 mg - Plasma - agg. (n=3)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           1.0,
@@ -6959,13 +7835,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Sobue 2004 - Fluconazole i.v. - Fluconazole - IV - 800 mg - Plasma - agg. (n=18)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 306.33
               },
               "Values": [
@@ -6991,13 +7865,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Sobue 2004 - Fluconazole i.v. - Fluconazole - IV - 800 mg - Plasma - agg. (n=18)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 306.33
           },
           "Values": [
@@ -7025,14 +7897,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Sobue 2004 - Fluconazole i.v. - Fluconazole - IV - 800 mg - Plasma - agg. (n=18)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           312.0,
@@ -7136,13 +8006,11 @@
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Yeates 1994 - Fluconazole i.v. healthy - Fluconazole - IV - 100 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 306.33
           },
           "Values": [
@@ -7172,14 +8040,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Yeates 1994 - Fluconazole i.v. healthy - Fluconazole - IV - 100 mg - Plasma - agg. (n=10)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.318,
@@ -7288,13 +8154,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Varhe 1996 - Fluconazole 200 mg oral - Fluconazole - PO - 200 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 306.33
               },
               "Values": [
@@ -7315,13 +8179,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Varhe 1996 - Fluconazole 200 mg oral - Fluconazole - PO - 200 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 306.33
           },
           "Values": [
@@ -7344,14 +8206,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Varhe 1996 - Fluconazole 200 mg oral - Fluconazole - PO - 200 mg - Plasma - agg. (n=8)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           73.0,
@@ -7450,13 +8310,11 @@
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Thorpe 1990 - Fluconazole oral without antacida - Fluconazole - PO - 100 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 306.33,
             "LLOQ": 1E-07
           },
@@ -7484,14 +8342,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Thorpe 1990 - Fluconazole oral without antacida - Fluconazole - PO - 100 mg - Plasma - agg. (n=14)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           1.16,
@@ -7597,13 +8453,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Varhe 1996 - Fluconazole 50 mg oral - Fluconazole - PO - 50 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 306.33
               },
               "Values": [
@@ -7624,13 +8478,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Varhe 1996 - Fluconazole 50 mg oral - Fluconazole - PO - 50 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 306.33
           },
           "Values": [
@@ -7653,14 +8505,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Varhe 1996 - Fluconazole 50 mg oral - Fluconazole - PO - 50 mg - Plasma - agg. (n=8)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           73.0,
@@ -7762,13 +8612,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Varhe 1996 - Fluconazole 100 mg oral - Fluconazole - PO - 100 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 306.33
               },
               "Values": [
@@ -7789,13 +8637,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Varhe 1996 - Fluconazole 100 mg oral - Fluconazole - PO - 100 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 306.33
           },
           "Values": [
@@ -7818,14 +8664,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Varhe 1996 - Fluconazole 100 mg oral - Fluconazole - PO - 100 mg - Plasma - agg. (n=8)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           73.0,
@@ -7927,13 +8771,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Shiba 1990 - Fluconazole oral 25 mg urine - Fluconazole - PO - 25 mg - Urine - agg. (n=8)|ObservedData|Kidney|Urine|Fluconazole|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 306.33
               },
               "Values": [
@@ -7951,13 +8793,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Shiba 1990 - Fluconazole oral 25 mg urine - Fluconazole - PO - 25 mg - Urine - agg. (n=8)|ObservedData|Kidney|Urine|Fluconazole|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 306.33
           },
           "Values": [
@@ -7977,14 +8817,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Shiba 1990 - Fluconazole oral 25 mg urine - Fluconazole - PO - 25 mg - Urine - agg. (n=8)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           2.0,
@@ -8084,13 +8922,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Shiba 1990 - Fluconazole oral 50 mg urine - Fluconazole - PO - 50 mg - Urine - agg. (n=8)|ObservedData|Kidney|Urine|Fluconazole|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 306.33
               },
               "Values": [
@@ -8108,13 +8944,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Shiba 1990 - Fluconazole oral 50 mg urine - Fluconazole - PO - 50 mg - Urine - agg. (n=8)|ObservedData|Kidney|Urine|Fluconazole|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 306.33
           },
           "Values": [
@@ -8134,14 +8968,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Shiba 1990 - Fluconazole oral 50 mg urine - Fluconazole - PO - 50 mg - Urine - agg. (n=8)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           2.0,
@@ -8241,13 +9073,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Shiba 1990 - Fluconazole oral 100 mg urine - Fluconazole - PO - 100 mg - Urine - agg. (n=6)|ObservedData|Kidney|Urine|Fluconazole|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 306.33
               },
               "Values": [
@@ -8265,13 +9095,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Shiba 1990 - Fluconazole oral 100 mg urine - Fluconazole - PO - 100 mg - Urine - agg. (n=6)|ObservedData|Kidney|Urine|Fluconazole|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 306.33
           },
           "Values": [
@@ -8291,14 +9119,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Shiba 1990 - Fluconazole oral 100 mg urine - Fluconazole - PO - 100 mg - Urine - agg. (n=6)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           2.0,
@@ -8398,13 +9224,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Shiba 1990 - Fluconazole oral 50 mg - Fluconazole - PO - 50 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 306.33
               },
               "Values": [
@@ -8424,13 +9248,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Shiba 1990 - Fluconazole oral 50 mg - Fluconazole - PO - 50 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 306.33
           },
           "Values": [
@@ -8452,14 +9274,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Shiba 1990 - Fluconazole oral 50 mg - Fluconazole - PO - 50 mg - Plasma - agg. (n=8)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.5,
@@ -8560,13 +9380,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Shiba 1990 - Fluconazole oral 100 mg - Fluconazole - PO - 100 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 306.33
               },
               "Values": [
@@ -8586,13 +9404,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Shiba 1990 - Fluconazole oral 100 mg - Fluconazole - PO - 100 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 306.33
           },
           "Values": [
@@ -8614,14 +9430,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Shiba 1990 - Fluconazole oral 100 mg - Fluconazole - PO - 100 mg - Plasma - agg. (n=6)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.5,
@@ -8722,13 +9536,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Shiba 1990 - Fluconazole oral 25 mg - Fluconazole - PO - 25 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 306.33
               },
               "Values": [
@@ -8748,13 +9560,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Shiba 1990 - Fluconazole oral 25 mg - Fluconazole - PO - 25 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 306.33
           },
           "Values": [
@@ -8776,14 +9586,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Shiba 1990 - Fluconazole oral 25 mg - Fluconazole - PO - 25 mg - Plasma - agg. (n=8)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.5,
@@ -8884,13 +9692,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Shiba 1990 - Fluconazole i.v. 50 mg urine - Fluconazole - IV - 50 mg - Urine - agg. (n=8)|ObservedData|Kidney|Urine|Fluconazole|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 306.33
               },
               "Values": [
@@ -8908,13 +9714,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Shiba 1990 - Fluconazole i.v. 50 mg urine - Fluconazole - IV - 50 mg - Urine - agg. (n=8)|ObservedData|Kidney|Urine|Fluconazole|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 306.33
           },
           "Values": [
@@ -8934,14 +9738,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Shiba 1990 - Fluconazole i.v. 50 mg urine - Fluconazole - IV - 50 mg - Urine - agg. (n=8)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           2.0,
@@ -9041,13 +9843,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Shiba 1990 - Fluconazole i.v. 25 mg urine - Fluconazole - IV - 25 mg - Urine - agg. (n=8)|ObservedData|Kidney|Urine|Fluconazole|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 306.33
               },
               "Values": [
@@ -9065,13 +9865,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Shiba 1990 - Fluconazole i.v. 25 mg urine - Fluconazole - IV - 25 mg - Urine - agg. (n=8)|ObservedData|Kidney|Urine|Fluconazole|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 306.33
           },
           "Values": [
@@ -9091,14 +9889,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Shiba 1990 - Fluconazole i.v. 25 mg urine - Fluconazole - IV - 25 mg - Urine - agg. (n=8)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           2.0,
@@ -9198,13 +9994,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Shiba 1990 - Fluconazole i.v. 50 mg - Fluconazole - IV - 50 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 306.33
               },
               "Values": [
@@ -9226,13 +10020,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Shiba 1990 - Fluconazole i.v. 50 mg - Fluconazole - IV - 50 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 306.33
           },
           "Values": [
@@ -9256,14 +10048,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Shiba 1990 - Fluconazole i.v. 50 mg - Fluconazole - IV - 50 mg - Plasma - agg. (n=8)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.1,
@@ -9366,13 +10156,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Shiba 1990 - Fluconazole i.v. 25 mg - Fluconazole - IV - 25 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 306.33
               },
               "Values": [
@@ -9394,13 +10182,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Shiba 1990 - Fluconazole i.v. 25 mg - Fluconazole - IV - 25 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 306.33
           },
           "Values": [
@@ -9424,14 +10210,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Shiba 1990 - Fluconazole i.v. 25 mg - Fluconazole - IV - 25 mg - Plasma - agg. (n=8)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.1,
@@ -9534,13 +10318,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Ripa 1993 - Fluconazole i.v. - Fluconazole - IV - 100 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 306.33
               },
               "Values": [
@@ -9555,13 +10337,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Ripa 1993 - Fluconazole i.v. - Fluconazole - IV - 100 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 306.33
           },
           "Values": [
@@ -9578,14 +10358,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Ripa 1993 - Fluconazole i.v. - Fluconazole - IV - 100 mg - Plasma - agg. (n=6)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.5,
@@ -9681,13 +10459,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Palkama 1998 - Fluconazole oral - Fluconazole - PO - 400 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 306.33
               },
               "Values": [
@@ -9711,13 +10487,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Palkama 1998 - Fluconazole oral - Fluconazole - PO - 400 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 306.33
           },
           "Values": [
@@ -9743,14 +10517,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Palkama 1998 - Fluconazole oral - Fluconazole - PO - 400 mg - Plasma - agg. (n=9)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           1.0,
@@ -9855,13 +10627,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Palkama 1998 - Fluconazole i.v - Fluconazole - IV - 400 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 306.33
               },
               "Values": [
@@ -9885,13 +10655,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Palkama 1998 - Fluconazole i.v - Fluconazole - IV - 400 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 306.33
           },
           "Values": [
@@ -9917,14 +10685,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Palkama 1998 - Fluconazole i.v - Fluconazole - IV - 400 mg - Plasma - agg. (n=9)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           1.0,
@@ -10026,13 +10792,11 @@
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Brammer 1990 - Fluconazole MD 400 mg oral - Fluconazole - PO - 400 mg - Plasma - agg. (n=15)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 306.33
           },
           "Values": [
@@ -10058,14 +10822,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Brammer 1990 - Fluconazole MD 400 mg oral - Fluconazole - PO - 400 mg - Plasma - agg. (n=15)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           24.72,
@@ -10167,13 +10929,11 @@
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Brammer 1990 - Fluconazole MD 300 mg oral - Fluconazole - PO - 300 mg - Plasma - agg. (n=15)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 306.33
           },
           "Values": [
@@ -10199,14 +10959,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Brammer 1990 - Fluconazole MD 300 mg oral - Fluconazole - PO - 300 mg - Plasma - agg. (n=15)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           23.52,
@@ -10308,13 +11066,11 @@
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Brammer 1990 - Fluconazole MD 200 mg oral - Fluconazole - PO - 200 mg - Plasma - agg. (n=15)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 306.33
           },
           "Values": [
@@ -10340,14 +11096,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Brammer 1990 - Fluconazole MD 200 mg oral - Fluconazole - PO - 200 mg - Plasma - agg. (n=15)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           24.24,
@@ -10449,13 +11203,11 @@
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Brammer 1990 - Fluconazole SD 50 mg oral - Fluconazole - PO - 50 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 306.33
           },
           "Values": [
@@ -10480,14 +11232,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Brammer 1990 - Fluconazole SD 50 mg oral - Fluconazole - PO - 50 mg - Plasma - agg. (n=12)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.172,
@@ -10588,13 +11338,11 @@
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Brammer 1990 - Fluconazole i.v. - Fluconazole - IV - 50 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 306.33
           },
           "Values": [
@@ -10619,14 +11367,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Brammer 1990 - Fluconazole i.v. - Fluconazole - IV - 50 mg - Plasma - agg. (n=12)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.696999967,
@@ -10727,13 +11473,11 @@
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Ahonen 1997 - Fluconazole oral - Fluconazole - PO - 400 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 306.33
           },
           "Values": [
@@ -10756,14 +11500,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Ahonen 1997 - Fluconazole oral - Fluconazole - PO - 400 mg - Plasma - agg. (n=9)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           1.01,
@@ -10862,13 +11604,11 @@
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Ahonen 1997 - Fluconazole i.v. - Fluconazole - IV - 400 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Fluconazole|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 306.33
           },
           "Values": [
@@ -10891,14 +11631,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Ahonen 1997 - Fluconazole i.v. - Fluconazole - IV - 400 mg - Plasma - agg. (n=9)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           1.03,
@@ -10956,7 +11694,6 @@
           },
           {
             "Unit": "",
-            "Dimension": "Dimensionless",
             "Type": "Y2",
             "GridLines": false,
             "Visible": true,
@@ -11042,6 +11779,12 @@
             "FontFamilyName": "Microsoft Sans Serif",
             "WatermarkSize": 32
           }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#00FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
         }
       }
     },
@@ -11084,7 +11827,6 @@
           },
           {
             "Unit": "",
-            "Dimension": "Dimensionless",
             "Type": "Y2",
             "GridLines": false,
             "Visible": true,
@@ -11212,6 +11954,12 @@
             "FontFamilyName": "Microsoft Sans Serif",
             "WatermarkSize": 32
           }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#00FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
         }
       }
     },
@@ -11258,7 +12006,6 @@
           },
           {
             "Unit": "",
-            "Dimension": "Dimensionless",
             "Type": "Y2",
             "GridLines": false,
             "Visible": true,
@@ -11512,6 +12259,12 @@
             "FontFamilyName": "Microsoft Sans Serif",
             "WatermarkSize": 32
           }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#00FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
         }
       }
     },
@@ -11625,6 +12378,12 @@
             "FontFamilyName": "Microsoft Sans Serif",
             "WatermarkSize": 32
           }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#00FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
         }
       }
     }
