@@ -20,6 +20,8 @@
 
 **Ripa 1993** Ripa, S., Ferrante, L., & Prenna, M. (1993). Pharmacokinetics of fluconazole in normal volunteers. *Chemotherapy*, *39*(1), 6-12.
 
+**Sakaeda 2005** Sakaeda, T., Iwaki, K., Kakumoto, M., Nishikawa, M., Niwa, T., Jin, J. (2005). Effect of micafungin on cytochrome P450 3A4 and multidrug resistance protein 1 activities, and its comparison with azole antifungal drugs. *J Pharm Pharmacol*, *57*, 759-764.
+
 **Shiba 1990** Shiba, K., Saito, A., & Miyahara, T. (1990). Safety and pharmacokinetics of single oral and intravenous doses of fluconazole in healthy subjects. *Clinical therapeutics*, *12*(3), 206-215.
 
 **Sobue 2004** Sobue, S., Tan, K., Layton, G., Eve, M., & Sanderson, J. B. (2004). Pharmacokinetics of fosfluconazole and fluconazole following multiple intravenous administration of fosfluconazole in healthy male volunteers. *British journal of clinical pharmacology*, *58*(1), 20-25.

@@ -828,12 +828,12 @@
         },
         {
           "InternalName": "NoncompetitiveInhibition",
-          "DataSource": "Watt2018",
+          "DataSource": "Sakaeda2005",
           "Molecule": "CYP3A4",
           "Parameters": [
             {
               "Name": "Ki",
-              "Value": 10.7,
+              "Value": 13.1,
               "Unit": "µmol/l"
             }
           ]
@@ -1878,7 +1878,7 @@
       ],
       "Interactions": [
         {
-          "Name": "CYP3A4-Watt2018",
+          "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
         }
@@ -2043,7 +2043,7 @@
       ],
       "Interactions": [
         {
-          "Name": "CYP3A4-Watt2018",
+          "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
         }
@@ -2244,7 +2244,7 @@
       ],
       "Interactions": [
         {
-          "Name": "CYP3A4-Watt2018",
+          "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
         }
@@ -2409,7 +2409,7 @@
       ],
       "Interactions": [
         {
-          "Name": "CYP3A4-Watt2018",
+          "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
         }
@@ -2574,7 +2574,7 @@
       ],
       "Interactions": [
         {
-          "Name": "CYP3A4-Watt2018",
+          "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
         }
@@ -2775,7 +2775,7 @@
       ],
       "Interactions": [
         {
-          "Name": "CYP3A4-Watt2018",
+          "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
         }
@@ -3005,7 +3005,7 @@
       ],
       "Interactions": [
         {
-          "Name": "CYP3A4-Watt2018",
+          "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
         }
@@ -3170,7 +3170,7 @@
       ],
       "Interactions": [
         {
-          "Name": "CYP3A4-Watt2018",
+          "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
         }
@@ -3341,7 +3341,7 @@
       ],
       "Interactions": [
         {
-          "Name": "CYP3A4-Watt2018",
+          "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
         }
@@ -3514,7 +3514,7 @@
       ],
       "Interactions": [
         {
-          "Name": "CYP3A4-Watt2018",
+          "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
         }
@@ -3685,7 +3685,7 @@
       ],
       "Interactions": [
         {
-          "Name": "CYP3A4-Watt2018",
+          "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
         }
@@ -3892,7 +3892,7 @@
       ],
       "Interactions": [
         {
-          "Name": "CYP3A4-Watt2018",
+          "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
         }
@@ -4099,7 +4099,7 @@
       ],
       "Interactions": [
         {
-          "Name": "CYP3A4-Watt2018",
+          "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
         }
@@ -4270,7 +4270,7 @@
       ],
       "Interactions": [
         {
-          "Name": "CYP3A4-Watt2018",
+          "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
         }
@@ -4458,7 +4458,7 @@
       ],
       "Interactions": [
         {
-          "Name": "CYP3A4-Watt2018",
+          "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
         }
@@ -4646,7 +4646,7 @@
       ],
       "Interactions": [
         {
-          "Name": "CYP3A4-Watt2018",
+          "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
         }
@@ -4817,7 +4817,7 @@
       ],
       "Interactions": [
         {
-          "Name": "CYP3A4-Watt2018",
+          "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
         }
@@ -4988,7 +4988,7 @@
       ],
       "Interactions": [
         {
-          "Name": "CYP3A4-Watt2018",
+          "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
         }
@@ -5174,7 +5174,7 @@
       ],
       "Interactions": [
         {
-          "Name": "CYP3A4-Watt2018",
+          "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
         }
@@ -5412,7 +5412,7 @@
       ],
       "Interactions": [
         {
-          "Name": "CYP3A4-Watt2018",
+          "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
         }
@@ -5650,7 +5650,7 @@
       ],
       "Interactions": [
         {
-          "Name": "CYP3A4-Watt2018",
+          "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
         }
@@ -5888,7 +5888,7 @@
       ],
       "Interactions": [
         {
-          "Name": "CYP3A4-Watt2018",
+          "Name": "CYP3A4-Sakaeda2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluconazole"
         }
