@@ -1,5 +1,7 @@
 {
-  "Version": 80,
+  "Name": "Fluconazole-Model",
+  "Version": 81,
+  "ApplicationName": "PK-Sim",
   "ExpressionProfiles": [
     {
       "Type": "Enzyme",
@@ -10,12 +12,14 @@
         {
           "Path": "CYP3A4|Reference concentration",
           "Value": 4.32,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP3A4|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP3A4|t1/2 (liver)",
@@ -27,51 +31,63 @@
         },
         {
           "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0041682898325
+          "Value": 0.0041682898325,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00078691079081
+          "Value": 0.00078691079081,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0053603428126
+          "Value": 0.0053603428126,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00042695753798
+          "Value": 0.00042695753798,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
@@ -88,117 +104,145 @@
         {
           "Path": "AADAC|Reference concentration",
           "Value": 1.0,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "AADAC|Relative expression in blood cells",
-          "Value": 3.9102564103E-05
+          "Value": 3.9102564103e-05,
+          "ValueOrigin": {}
         },
         {
           "Path": "AADAC|Relative expression in plasma",
-          "Value": 3.9102564103E-05
+          "Value": 3.9102564103e-05,
+          "ValueOrigin": {}
         },
         {
           "Path": "AADAC|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "AADAC|t1/2 (liver)",
           "Value": 36.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Bone|Intracellular|AADAC|Relative expression",
-          "Value": 4.8717948718E-05
+          "Value": 4.8717948718e-05,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|AADAC|Relative expression",
-          "Value": 3.9743589744E-05
+          "Value": 3.9743589744e-05,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|AADAC|Relative expression",
-          "Value": 0.0011923076923
+          "Value": 0.0011923076923,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Heart|Intracellular|AADAC|Relative expression",
-          "Value": 0.0026602564103
+          "Value": 0.0026602564103,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|AADAC|Relative expression",
-          "Value": 5.7051282051E-05
+          "Value": 5.7051282051e-05,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Intracellular|AADAC|Relative expression",
-          "Value": 0.00010384615385
+          "Value": 0.00010384615385,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|AADAC|Relative expression",
-          "Value": 0.00010384615385
+          "Value": 0.00010384615385,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|AADAC|Relative expression",
-          "Value": 0.00010384615385
+          "Value": 0.00010384615385,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|AADAC|Relative expression",
-          "Value": 0.00010384615385
+          "Value": 0.00010384615385,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|AADAC|Relative expression",
-          "Value": 0.00010384615385
+          "Value": 0.00010384615385,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|AADAC|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|AADAC|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|AADAC|Relative expression",
-          "Value": 0.0269230769
+          "Value": 0.0269230769,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Muscle|Intracellular|AADAC|Relative expression",
-          "Value": 0.00020833333333
+          "Value": 0.00020833333333,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Pancreas|Intracellular|AADAC|Relative expression",
-          "Value": 0.1474358974
+          "Value": 0.1474358974,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|AADAC|Relative expression",
-          "Value": 0.2544871795
+          "Value": 0.2544871795,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|AADAC|Relative expression",
-          "Value": 0.2544871795
+          "Value": 0.2544871795,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|AADAC|Relative expression",
-          "Value": 0.2544871795
+          "Value": 0.2544871795,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|AADAC|Relative expression",
-          "Value": 0.2544871795
+          "Value": 0.2544871795,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|AADAC|Relative expression",
-          "Value": 0.2544871795
+          "Value": 0.2544871795,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|AADAC|Relative expression",
-          "Value": 0.2544871795
+          "Value": 0.2544871795,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Spleen|Intracellular|AADAC|Relative expression",
-          "Value": 0.00037115384615
+          "Value": 0.00037115384615,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Stomach|Intracellular|AADAC|Relative expression",
-          "Value": 0.0775641026
+          "Value": 0.0775641026,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
@@ -212,61 +256,75 @@
         {
           "Path": "CYP3A5|Reference concentration",
           "Value": 0.04,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP3A5|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP3A5|t1/2 (liver)",
           "Value": 36.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.0041810344828
+          "Value": 0.0041810344828,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.1681034483
+          "Value": 0.1681034483,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A5|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|CYP3A5|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.1620689655
+          "Value": 0.1620689655,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
+          "Value": 0.5379310345,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
+          "Value": 0.5379310345,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
+          "Value": 0.5379310345,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
+          "Value": 0.5379310345,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
+          "Value": 0.5379310345,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
+          "Value": 0.5379310345,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
@@ -283,65 +341,80 @@
         {
           "Path": "CYP2C9|Reference concentration",
           "Value": 3.84,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP2C9|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP2C9|t1/2 (liver)",
           "Value": 104.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.00039687350455
+          "Value": 0.00039687350455,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|CYP2C9|Relative expression",
-          "Value": 4.5940341362E-05
+          "Value": 4.5940341362e-05,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.0018822778753
+          "Value": 0.0018822778753,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|CYP2C9|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|CYP2C9|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.0002131121391
+          "Value": 0.0002131121391,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
+          "Value": 0.1199553358,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
+          "Value": 0.1199553358,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
+          "Value": 0.1199553358,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
+          "Value": 0.1199553358,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
+          "Value": 0.1199553358,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
+          "Value": 0.1199553358,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
@@ -358,37 +431,45 @@
         {
           "Path": "CYP1A2|Reference concentration",
           "Value": 1.8,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP1A2|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP1A2|t1/2 (liver)",
           "Value": 39.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|CYP1A2|Relative expression",
-          "Value": 0.00029559748428
+          "Value": 0.00029559748428,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
-          "Value": 4.4025157233E-06
+          "Value": 4.4025157233e-06,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|CYP1A2|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|CYP1A2|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
-          "Value": 2.4947589099E-05
+          "Value": 2.4947589099e-05,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
@@ -405,109 +486,135 @@
         {
           "Path": "ABCB1|Reference concentration",
           "Value": 1.0,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "ABCB1|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "ABCB1|t1/2 (liver)",
           "Value": 36.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Bone|Intracellular|ABCB1|Relative expression",
-          "Value": 0.0341950646
+          "Value": 0.0341950646,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|ABCB1|Relative expression",
-          "Value": 0.1072855464
+          "Value": 0.1072855464,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|ABCB1|Relative expression",
-          "Value": 0.024559342
+          "Value": 0.024559342,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Heart|Intracellular|ABCB1|Relative expression",
-          "Value": 0.059106933
+          "Value": 0.059106933,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|ABCB1|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Intracellular|ABCB1|Relative expression",
-          "Value": 0.1562867215
+          "Value": 0.1562867215,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|ABCB1|Relative expression",
-          "Value": 0.1562867215
+          "Value": 0.1562867215,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|ABCB1|Relative expression",
-          "Value": 0.1562867215
+          "Value": 0.1562867215,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|ABCB1|Relative expression",
-          "Value": 0.1562867215
+          "Value": 0.1562867215,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|ABCB1|Relative expression",
-          "Value": 0.1562867215
+          "Value": 0.1562867215,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|ABCB1|Relative expression",
-          "Value": 0.2702702703
+          "Value": 0.2702702703,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|ABCB1|Relative expression",
-          "Value": 0.2702702703
+          "Value": 0.2702702703,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|ABCB1|Relative expression",
-          "Value": 0.0927144536
+          "Value": 0.0927144536,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Muscle|Intracellular|ABCB1|Relative expression",
-          "Value": 0.0180963572
+          "Value": 0.0180963572,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Pancreas|Intracellular|ABCB1|Relative expression",
-          "Value": 0.0200940071
+          "Value": 0.0200940071,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|ABCB1|Relative expression",
-          "Value": 0.3960047004
+          "Value": 0.3960047004,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|ABCB1|Relative expression",
-          "Value": 0.3960047004
+          "Value": 0.3960047004,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|ABCB1|Relative expression",
-          "Value": 0.3960047004
+          "Value": 0.3960047004,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|ABCB1|Relative expression",
-          "Value": 0.3960047004
+          "Value": 0.3960047004,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|ABCB1|Relative expression",
-          "Value": 0.3960047004
+          "Value": 0.3960047004,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|ABCB1|Relative expression",
-          "Value": 0.3960047004
+          "Value": 0.3960047004,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Spleen|Intracellular|ABCB1|Relative expression",
-          "Value": 0.1047003525
+          "Value": 0.1047003525,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Stomach|Intracellular|ABCB1|Relative expression",
-          "Value": 0.0367802585
+          "Value": 0.0367802585,
+          "ValueOrigin": {}
         }
       ],
       "TransportType": "Efflux",
@@ -741,45 +848,55 @@
         {
           "Path": "OATP1B1|Reference concentration",
           "Value": 1.0,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "OATP1B1|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "OATP1B1|t1/2 (liver)",
           "Value": 36.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|OATP1B1|Relative expression",
-          "Value": 0.00014166666667
+          "Value": 0.00014166666667,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|OATP1B1|Relative expression",
-          "Value": 0.0141666667
+          "Value": 0.0141666667,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Heart|Intracellular|OATP1B1|Relative expression",
-          "Value": 0.0008253968254
+          "Value": 0.0008253968254,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|OATP1B1|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|OATP1B1|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|OATP1B1|Relative expression",
-          "Value": 4.0079365079E-05
+          "Value": 4.0079365079e-05,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Muscle|Intracellular|OATP1B1|Relative expression",
-          "Value": 0.00064682539683
+          "Value": 0.00064682539683,
+          "ValueOrigin": {}
         }
       ],
       "TransportType": "Influx",
@@ -1012,78 +1129,96 @@
       "Parameters": [
         {
           "Path": "Organism|Gonads|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.00094468085106
+          "Value": 0.00094468085106,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.0049787234043
+          "Value": 0.0049787234043,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.0049787234043
+          "Value": 0.0049787234043,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.0049787234043
+          "Value": 0.0049787234043,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.0049787234043
+          "Value": 0.0049787234043,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.0049787234043
+          "Value": 0.0049787234043,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|UGT2B7|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|UGT2B7|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Pancreas|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.0354468085
+          "Value": 0.0354468085,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.5361702128
+          "Value": 0.5361702128,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.5361702128
+          "Value": 0.5361702128,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.5361702128
+          "Value": 0.5361702128,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.5361702128
+          "Value": 0.5361702128,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.5361702128
+          "Value": 0.5361702128,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.5361702128
+          "Value": 0.5361702128,
+          "ValueOrigin": {}
         },
         {
           "Path": "UGT2B7|Reference concentration",
           "Value": 1.0,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "UGT2B7|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "UGT2B7|t1/2 (liver)",
           "Value": 36.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
@@ -1152,7 +1287,8 @@
             {
               "Name": "Fraction unbound (plasma, reference value)",
               "Value": 89.0,
-              "Unit": "%"
+              "Unit": "%",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -1164,11 +1300,13 @@
             {
               "Name": "Solubility at reference pH",
               "Value": 6.9,
-              "Unit": "mg/ml"
+              "Unit": "mg/ml",
+              "ValueOrigin": {}
             },
             {
               "Name": "Reference pH",
-              "Value": 7.0
+              "Value": 7.0,
+              "ValueOrigin": {}
             }
           ]
         }
@@ -1180,7 +1318,8 @@
             {
               "Name": "Specific intestinal permeability (transcellular)",
               "Value": 0.000213,
-              "Unit": "cm/s"
+              "Unit": "cm/s",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -1204,7 +1343,8 @@
             {
               "Name": "Intrinsic clearance",
               "Value": 0.008,
-              "Unit": "l/min"
+              "Unit": "l/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "Specific clearance",
@@ -1242,7 +1382,8 @@
             {
               "Name": "Ki",
               "Value": 13.1,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -1254,12 +1395,14 @@
       "Parameters": [
         {
           "Name": "F",
-          "Value": 2.0
+          "Value": 2.0,
+          "ValueOrigin": {}
         },
         {
           "Name": "Molecular weight",
           "Value": 306.328,
-          "Unit": "g/mol"
+          "Unit": "g/mol",
+          "ValueOrigin": {}
         }
       ]
     }
@@ -1282,7 +1425,8 @@
         {
           "Name": "Lag time",
           "Value": 0.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Name": "Dissolution shape",
@@ -1295,7 +1439,8 @@
         },
         {
           "Name": "Use as suspension",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1316,7 +1461,8 @@
         {
           "Name": "Lag time",
           "Value": 0.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Name": "Dissolution shape",
@@ -1329,7 +1475,8 @@
         },
         {
           "Name": "Use as suspension",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1350,7 +1497,8 @@
         {
           "Name": "Lag time",
           "Value": 0.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Name": "Dissolution shape",
@@ -1363,7 +1511,8 @@
         },
         {
           "Name": "Use as suspension",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         }
       ]
     }
@@ -1377,17 +1526,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 25.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Infusion time",
           "Value": 1.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1399,17 +1551,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 50.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Infusion time",
           "Value": 2.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1421,17 +1576,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 50.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Infusion time",
           "Value": 2.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1443,17 +1601,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 100.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Infusion time",
           "Value": 30.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1465,17 +1626,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 100.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Infusion time",
           "Value": 20.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1487,17 +1651,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 400.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Infusion time",
           "Value": 60.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1515,17 +1682,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 400.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Infusion time",
                   "Value": 60.0,
-                  "Unit": "min"
+                  "Unit": "min",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1534,16 +1704,19 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -1558,17 +1731,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 800.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Infusion time",
           "Value": 240.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Name": "End time",
@@ -1588,17 +1764,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 25.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1610,17 +1789,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 50.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1632,17 +1814,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 100.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1654,17 +1839,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 50.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1676,17 +1864,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 100.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Volume of water/body weight",
           "Value": 2.05,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1705,17 +1896,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 400.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1724,16 +1918,19 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -1755,17 +1952,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 200.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1774,7 +1974,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
@@ -1804,17 +2005,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 400.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1833,17 +2037,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "day(s)"
+                  "Unit": "day(s)",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 300.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1852,7 +2059,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
@@ -1889,17 +2097,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 400.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1908,7 +2119,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
@@ -1938,17 +2150,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 50.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1967,17 +2182,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 50.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1986,7 +2204,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
@@ -2023,17 +2242,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 100.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -2042,7 +2264,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
@@ -2079,17 +2302,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 400.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -2098,11 +2324,13 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
@@ -2125,17 +2353,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 200.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -2177,17 +2408,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 100.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Volume of water/body weight",
           "Value": 2.05,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ]
     }
@@ -2206,17 +2440,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -2225,7 +2462,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -2238,16 +2476,18 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
       ],
       "Parameters": [
         {
-          "Path": "Events|Palkama_1998_fluconazole_midazolam_ddi.fluconazole.400.mg.iv|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Palkama_1998_fluconazole_midazolam_ddi.fluconazole.400.mg.iv|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 60.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -2305,6 +2545,13 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Sakaeda2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Fluconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -2373,13 +2620,6 @@
           },
           "OriginText": "fluconazole_final_JE\nPalkama_1998_fluconazole_400mg_iv_train\n2021-07-14 10:16"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Sakaeda2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Fluconazole"
-        }
       ]
     },
     {
@@ -2395,17 +2635,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -2414,7 +2657,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -2427,16 +2671,18 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
       ],
       "Parameters": [
         {
-          "Path": "Events|Ripa_1993_iv_inf_sd_plasma.fluconazole.100.mg.iv|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Ripa_1993_iv_inf_sd_plasma.fluconazole.100.mg.iv|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 30.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -2494,6 +2740,13 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Sakaeda2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Fluconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -2562,13 +2815,6 @@
           },
           "OriginText": "fluconazole_final_JE\nRipa_1993_fluconazole_100mg_iv_train\n2021-07-14 10:16"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Sakaeda2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Fluconazole"
-        }
       ]
     },
     {
@@ -2585,17 +2831,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -2604,7 +2853,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -2617,16 +2867,18 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
       ],
       "Parameters": [
         {
-          "Path": "Events|Shiba_1990_iv_inf_sd_plasma.fluconazole.50.mg.iv|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Shiba_1990_iv_inf_sd_plasma.fluconazole.50.mg.iv|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 2.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -2690,6 +2942,13 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Sakaeda2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Fluconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -2792,13 +3051,6 @@
           },
           "OriginText": "fluconazole_final_JE\nShiba_1990_fluconazole_50mg_iv_train\n2021-07-14 10:16"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Sakaeda2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Fluconazole"
-        }
       ]
     },
     {
@@ -2814,17 +3066,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -2833,7 +3088,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -2846,16 +3102,18 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
       ],
       "Parameters": [
         {
-          "Path": "Events|Ahonen_1997_fluconazole_midazolam_ddi.fluconazole.400.mg.iv|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Ahonen_1997_fluconazole_midazolam_ddi.fluconazole.400.mg.iv|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 60.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -2913,6 +3171,13 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Sakaeda2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Fluconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -2981,13 +3246,6 @@
           },
           "OriginText": "fluconazole_final_JE\nAhonen_1997_fluconazole_400mg_iv_test\n2021-07-14 10:14"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Sakaeda2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Fluconazole"
-        }
       ]
     },
     {
@@ -3003,17 +3261,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -3022,7 +3283,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -3035,16 +3297,18 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
       ],
       "Parameters": [
         {
-          "Path": "Events|Brammer_1990_iv_inf_sd_plasma.fluconazole.50.mg.iv|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Brammer_1990_iv_inf_sd_plasma.fluconazole.50.mg.iv|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 2.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -3102,6 +3366,13 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Sakaeda2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Fluconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -3170,13 +3441,6 @@
           },
           "OriginText": "fluconazole_final_JE\nBrammer_1990_fluconazole_50mg_iv_test\n2021-07-14 10:14"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Sakaeda2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Fluconazole"
-        }
       ]
     },
     {
@@ -3193,17 +3457,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -3212,7 +3479,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -3225,16 +3493,18 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
       ],
       "Parameters": [
         {
-          "Path": "Events|Shiba_1990_iv_inf_sd_plasma.fluconazole.25.mg.iv|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Shiba_1990_iv_inf_sd_plasma.fluconazole.25.mg.iv|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 1.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -3298,6 +3568,13 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Sakaeda2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Fluconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -3400,13 +3677,6 @@
           },
           "OriginText": "fluconazole_final_JE\nShiba_1990_fluconazole_25mg_iv_test\n2021-07-14 10:14"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Sakaeda2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Fluconazole"
-        }
       ]
     },
     {
@@ -3422,17 +3692,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -3441,7 +3714,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -3454,81 +3728,96 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
       ],
       "Parameters": [
         {
-          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 240.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|Application_10|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|No formulation|Application_10|ProtocolSchemaItem|Infusion time",
           "Value": 240.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|Application_11|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|No formulation|Application_11|ProtocolSchemaItem|Infusion time",
           "Value": 240.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|Application_12|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|No formulation|Application_12|ProtocolSchemaItem|Infusion time",
           "Value": 240.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|Application_13|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|No formulation|Application_13|ProtocolSchemaItem|Infusion time",
           "Value": 240.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|Application_14|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|No formulation|Application_14|ProtocolSchemaItem|Infusion time",
           "Value": 240.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|Application_2|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|No formulation|Application_2|ProtocolSchemaItem|Infusion time",
           "Value": 240.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|Application_3|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|No formulation|Application_3|ProtocolSchemaItem|Infusion time",
           "Value": 240.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|Application_4|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|No formulation|Application_4|ProtocolSchemaItem|Infusion time",
           "Value": 240.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|Application_5|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|No formulation|Application_5|ProtocolSchemaItem|Infusion time",
           "Value": 240.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|Application_6|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|No formulation|Application_6|ProtocolSchemaItem|Infusion time",
           "Value": 240.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|Application_7|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|No formulation|Application_7|ProtocolSchemaItem|Infusion time",
           "Value": 240.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|Application_8|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|No formulation|Application_8|ProtocolSchemaItem|Infusion time",
           "Value": 240.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|Application_9|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Sobue_2004_iv_inf_md_plasma.fluconazole.800.mg.iv|No formulation|Application_9|ProtocolSchemaItem|Infusion time",
           "Value": 240.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -3586,6 +3875,13 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Sakaeda2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Fluconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -3654,13 +3950,6 @@
           },
           "OriginText": "fluconazole_final_JE\nSobue_2004_fluconazole_800mg_iv_test\n2021-07-14 10:15"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Sakaeda2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Fluconazole"
-        }
       ]
     },
     {
@@ -3676,17 +3965,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -3695,7 +3987,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -3708,16 +4001,18 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
       ],
       "Parameters": [
         {
-          "Path": "Events|Yeates_1994_iv_inf_sd_plasma.fluconazole.100.mg.iv|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Yeates_1994_iv_inf_sd_plasma.fluconazole.100.mg.iv|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 20.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -3775,6 +4070,13 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Sakaeda2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Fluconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -3843,13 +4145,6 @@
           },
           "OriginText": "fluconazole_final_JE\nYeates_1994_fluconazole_100mg_iv_test\n2021-07-14 10:15"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Sakaeda2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Fluconazole"
-        }
       ]
     },
     {
@@ -3865,17 +4160,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -3884,7 +4182,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -3897,7 +4196,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -3906,7 +4206,8 @@
         {
           "Path": "Events|Ahonen_1997_fluconazole_midazolam_ddi.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -3970,6 +4271,13 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Sakaeda2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Fluconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -4038,13 +4346,6 @@
           },
           "OriginText": "fluconazole_final_JE\nAhonen_1997_fluconazole_400mg_po_train\n2021-07-13 18:03"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Sakaeda2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Fluconazole"
-        }
       ]
     },
     {
@@ -4060,17 +4361,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -4079,7 +4383,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -4092,7 +4397,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -4101,7 +4407,8 @@
         {
           "Path": "Events|Brammer_1990_po_sd_plasma.fluconazole.50.mg.po|Fluconazole_Weibull_low dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -4165,6 +4472,13 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Sakaeda2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Fluconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -4235,13 +4549,6 @@
           },
           "OriginText": "fluconazole_final_JE\nBrammer_1990_fluconazole_50mg_po_train\n2021-07-13 18:05"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Sakaeda2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Fluconazole"
-        }
       ]
     },
     {
@@ -4257,17 +4564,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -4276,7 +4586,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -4289,7 +4600,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -4298,7 +4610,8 @@
         {
           "Path": "Events|Brammer_1991_po_sd_gc_plasma.fluconazole.50.mg.po|Fluconazole_Weibull_low dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -4362,6 +4675,13 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Sakaeda2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Fluconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -4430,13 +4750,6 @@
           },
           "OriginText": "fluconazole_final_JE\nBrammer_1991_fluconazole_50mg_po_train\n2021-07-13 18:05"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Sakaeda2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Fluconazole"
-        }
       ]
     },
     {
@@ -4453,17 +4766,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -4472,7 +4788,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -4485,7 +4802,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -4494,7 +4812,8 @@
         {
           "Path": "Events|Shiba_1990_po_sd_plasma.fluconazole.50.mg.po|Fluconazole_Weibull_low dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -4564,6 +4883,13 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Sakaeda2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Fluconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -4666,13 +4992,6 @@
           },
           "OriginText": "fluconazole_final_JE\nShiba_1990_fluconazole_50mg_po_train\n2021-07-13 18:06"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Sakaeda2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Fluconazole"
-        }
       ]
     },
     {
@@ -4689,17 +5008,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -4708,7 +5030,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -4721,7 +5044,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -4730,7 +5054,8 @@
         {
           "Path": "Events|Shiba_1990_po_sd_plasma.fluconazole.25.mg.po|Fluconazole_Weibull_low dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -4800,6 +5125,13 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Sakaeda2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Fluconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -4902,13 +5234,6 @@
           },
           "OriginText": "fluconazole_final_JE\nShiba_1990_fluconazole_25mg_po_train\n2021-07-13 18:05"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Sakaeda2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Fluconazole"
-        }
       ]
     },
     {
@@ -4924,17 +5249,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -4943,7 +5271,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -4956,7 +5285,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -4965,7 +5295,8 @@
         {
           "Path": "Events|Thorpe_1990_po_sd_plasma.fluconazole.100.mg.po|Fluconazole_Weibull_medium high dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 2.05,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -5029,6 +5360,13 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Sakaeda2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Fluconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -5097,13 +5435,6 @@
           },
           "OriginText": "fluconazole_final_JE\nThorpe_1990_fluconazole_100mg_po_train\n2021-07-13 18:06"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Sakaeda2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Fluconazole"
-        }
       ]
     },
     {
@@ -5119,17 +5450,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -5138,7 +5472,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -5151,7 +5486,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -5160,22 +5496,26 @@
         {
           "Path": "Events|Varhe_1996_fluconazole_midazolam_ddi.fluconazole.100.mg.po|Fluconazole_Weibull_medium high dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Varhe_1996_fluconazole_midazolam_ddi.fluconazole.100.mg.po|Fluconazole_Weibull_medium high dose|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Varhe_1996_fluconazole_midazolam_ddi.fluconazole.100.mg.po|Fluconazole_Weibull_medium high dose|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Varhe_1996_fluconazole_midazolam_ddi.fluconazole.100.mg.po|Fluconazole_Weibull_medium high dose|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -5239,6 +5579,13 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Sakaeda2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Fluconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -5309,13 +5656,6 @@
           },
           "OriginText": "fluconazole_final_JE\nVarhe_1996_fluconazole_100mg_po_train\n2021-07-13 18:06"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Sakaeda2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Fluconazole"
-        }
       ]
     },
     {
@@ -5331,17 +5671,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -5350,7 +5693,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -5363,7 +5707,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -5372,22 +5717,26 @@
         {
           "Path": "Events|Varhe_1996_fluconazole_midazolam_ddi.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Varhe_1996_fluconazole_midazolam_ddi.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Varhe_1996_fluconazole_midazolam_ddi.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Varhe_1996_fluconazole_midazolam_ddi.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -5451,6 +5800,13 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Sakaeda2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Fluconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -5521,13 +5877,6 @@
           },
           "OriginText": "fluconazole_final_JE\nVarhe_1996_fluconazole_200mg_po_train\n2021-07-13 18:06"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Sakaeda2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Fluconazole"
-        }
       ]
     },
     {
@@ -5543,17 +5892,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -5562,7 +5914,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -5575,7 +5928,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -5584,7 +5938,8 @@
         {
           "Path": "Events|Palkama_1998_fluconazole_midazolam_ddi.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -5648,6 +6003,13 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Sakaeda2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Fluconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -5716,13 +6078,6 @@
           },
           "OriginText": "fluconazole_final_JE\nPalkama_1998_fluconazole_400mg_po_test\n2021-07-14 10:17"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Sakaeda2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Fluconazole"
-        }
       ]
     },
     {
@@ -5738,17 +6093,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -5757,7 +6115,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -5770,7 +6129,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -5779,7 +6139,8 @@
         {
           "Path": "Events|Shiba_1990_po_sd_plasma.fluconazole.100.mg.po|Fluconazole_Weibull_medium high dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -5843,6 +6204,13 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Sakaeda2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Fluconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -5911,13 +6279,6 @@
           },
           "OriginText": "fluconazole_final_JE\nShiba_1990_fluconazole_100mg_po_test\n2021-07-14 10:19"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Sakaeda2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Fluconazole"
-        }
       ]
     },
     {
@@ -5933,17 +6294,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -5952,7 +6316,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -5965,7 +6330,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -5974,22 +6340,26 @@
         {
           "Path": "Events|Varhe_1996_fluconazole_midazolam_ddi.fluconazole.50.mg.po|Fluconazole_Weibull_low dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Varhe_1996_fluconazole_midazolam_ddi.fluconazole.50.mg.po|Fluconazole_Weibull_low dose|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Varhe_1996_fluconazole_midazolam_ddi.fluconazole.50.mg.po|Fluconazole_Weibull_low dose|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Varhe_1996_fluconazole_midazolam_ddi.fluconazole.50.mg.po|Fluconazole_Weibull_low dose|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -6053,6 +6423,13 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Sakaeda2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Fluconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -6121,13 +6498,6 @@
           },
           "OriginText": "fluconazole_final_JE\nVarhe_1996_fluconazole_50mg_po_test\n2021-07-14 10:21"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Sakaeda2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Fluconazole"
-        }
       ]
     },
     {
@@ -6143,17 +6513,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -6162,7 +6535,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -6175,7 +6549,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -6184,72 +6559,86 @@
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.200.mg.po|Fluconazole_Weibull_medium high dose|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -6313,6 +6702,13 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Sakaeda2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Fluconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -6383,13 +6779,6 @@
           },
           "OriginText": "Fluconazole-Model\nBrammer_1990_fluconazole_200mg_po_train\n2021-08-23 09:35"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Sakaeda2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Fluconazole"
-        }
       ]
     },
     {
@@ -6405,17 +6794,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -6424,7 +6816,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -6437,7 +6830,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -6446,72 +6840,86 @@
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.300.mg.po|Fluconazole_Weibull_high dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.300.mg.po|Fluconazole_Weibull_high dose|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.300.mg.po|Fluconazole_Weibull_high dose|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.300.mg.po|Fluconazole_Weibull_high dose|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.300.mg.po|Fluconazole_Weibull_high dose|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.300.mg.po|Fluconazole_Weibull_high dose|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.300.mg.po|Fluconazole_Weibull_high dose|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.300.mg.po|Fluconazole_Weibull_high dose|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.300.mg.po|Fluconazole_Weibull_high dose|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.300.mg.po|Fluconazole_Weibull_high dose|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.300.mg.po|Fluconazole_Weibull_high dose|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.300.mg.po|Fluconazole_Weibull_high dose|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.300.mg.po|Fluconazole_Weibull_high dose|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.300.mg.po|Fluconazole_Weibull_high dose|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -6575,6 +6983,13 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Sakaeda2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Fluconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -6645,13 +7060,6 @@
           },
           "OriginText": "Fluconazole-Model\nBrammer_1990_fluconazole_300mg_po_train\n2021-08-23 09:36"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Sakaeda2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Fluconazole"
-        }
       ]
     },
     {
@@ -6667,17 +7075,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -6686,7 +7097,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -6699,7 +7111,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -6708,72 +7121,86 @@
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Brammer_1990_po_md_plasma.fluconazole.400.mg.po|Fluconazole_Weibull_high dose|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -6837,6 +7264,13 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Sakaeda2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Fluconazole"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -6906,13 +7340,6 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Fluconazole-Model\nBrammer_1990_fluconazole_400mg_po_train\n2021-08-23 09:36"
-        }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Sakaeda2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Fluconazole"
         }
       ]
     }
@@ -6984,15 +7411,18 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 0.14123
+              "Value": 0.14123,
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 0.01
+              "Value": 0.01,
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             }
           ]
         },
@@ -7008,17 +7438,20 @@
             {
               "Name": "Start value",
               "Value": 0.89993,
-              "Unit": "Log Units"
+              "Unit": "Log Units",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": -1.0,
-              "Unit": "Log Units"
+              "Unit": "Log Units",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 3.0,
-              "Unit": "Log Units"
+              "Unit": "Log Units",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -7034,17 +7467,20 @@
             {
               "Name": "Start value",
               "Value": 0.0015831,
-              "Unit": "1/min"
+              "Unit": "1/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 1E-05,
-              "Unit": "1/min"
+              "Value": 1e-05,
+              "Unit": "1/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 0.15831,
-              "Unit": "1/min"
+              "Unit": "1/min",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -7137,44 +7573,6 @@
                   "LegendIndex": 4,
                   "LineStyle": "None",
                   "Symbol": "Circle"
-                }
-              },
-              {
-                "Name": "Palkama_1998_fluconazole_400mg_iv_train-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "Palkama_1998_fluconazole_400mg_iv_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#008000",
-                  "LegendIndex": 5
-                }
-              },
-              {
-                "Name": "Ripa_1993_fluconazole_100mg_iv_train-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "Ripa_1993_fluconazole_100mg_iv_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#FF00FF",
-                  "LegendIndex": 6
-                }
-              },
-              {
-                "Name": "Shiba_1990_fluconazole_50mg_iv_train-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "Shiba_1990_fluconazole_50mg_iv_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#FF0000",
-                  "LegendIndex": 7
-                }
-              },
-              {
-                "Name": "Shiba_1990_fluconazole_50mg_iv_train-Fluconazole-Kidney-Urine-Fraction excreted to urine",
-                "X": "Time",
-                "Y": "Shiba_1990_fluconazole_50mg_iv_train|Organism|Kidney|Urine|Fluconazole|Fraction excreted to urine",
-                "CurveOptions": {
-                  "yAxisType": "Y2",
-                  "Color": "#0000FF",
-                  "LegendIndex": 8,
-                  "LineStyle": "Dash"
                 }
               }
             ],
@@ -7327,15 +7725,18 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 1.99
+              "Value": 1.99,
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 0.1
+              "Value": 0.1,
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
-              "Value": 10.0
+              "Value": 10.0,
+              "ValueOrigin": {}
             }
           ]
         },
@@ -7351,17 +7752,20 @@
             {
               "Name": "Start value",
               "Value": 100.83,
-              "Unit": "min"
+              "Unit": "min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 1.0,
-              "Unit": "min"
+              "Unit": "min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 300.0,
-              "Unit": "min"
+              "Unit": "min",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -7378,17 +7782,20 @@
             {
               "Name": "Start value",
               "Value": 52.54,
-              "Unit": "min"
+              "Unit": "min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 1.0,
-              "Unit": "min"
+              "Unit": "min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 179.6483,
-              "Unit": "min"
+              "Unit": "min",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -7405,17 +7812,20 @@
             {
               "Name": "Start value",
               "Value": 31.4,
-              "Unit": "min"
+              "Unit": "min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 1.0,
-              "Unit": "min"
+              "Unit": "min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 179.6483,
-              "Unit": "min"
+              "Unit": "min",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -7624,127 +8034,6 @@
                   "LineStyle": "None",
                   "Symbol": "Circle"
                 }
-              },
-              {
-                "Name": "Shiba_1990_fluconazole_50mg_po_train-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "Shiba_1990_fluconazole_50mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#FF0000",
-                  "LegendIndex": 14
-                }
-              },
-              {
-                "Name": "Shiba_1990_fluconazole_50mg_po_train-Fluconazole-Kidney-Urine-Fraction excreted to urine",
-                "X": "Time",
-                "Y": "Shiba_1990_fluconazole_50mg_po_train|Organism|Kidney|Urine|Fluconazole|Fraction excreted to urine",
-                "CurveOptions": {
-                  "yAxisType": "Y2",
-                  "Color": "#0000FF",
-                  "LegendIndex": 15,
-                  "LineStyle": "Dash"
-                }
-              },
-              {
-                "Name": "Ahonen_1997_fluconazole_400mg_po_train-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "Ahonen_1997_fluconazole_400mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#008000",
-                  "LegendIndex": 16
-                }
-              },
-              {
-                "Name": "Varhe_1996_fluconazole_100mg_po_train-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "Varhe_1996_fluconazole_100mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#8080FF",
-                  "LegendIndex": 17
-                }
-              },
-              {
-                "Name": "Brammer_1991_fluconazole_50mg_po_train-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "Brammer_1991_fluconazole_50mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#C04000",
-                  "LegendIndex": 18
-                }
-              },
-              {
-                "Name": "Brammer_1990_fluconazole_50mg_po_train-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "Brammer_1990_fluconazole_50mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#C000C0",
-                  "LegendIndex": 19
-                }
-              },
-              {
-                "Name": "Shiba_1990_fluconazole_25mg_po_train-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "Shiba_1990_fluconazole_25mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#00FF00",
-                  "LegendIndex": 20
-                }
-              },
-              {
-                "Name": "Shiba_1990_fluconazole_25mg_po_train-Fluconazole-Kidney-Urine-Fraction excreted to urine",
-                "X": "Time",
-                "Y": "Shiba_1990_fluconazole_25mg_po_train|Organism|Kidney|Urine|Fluconazole|Fraction excreted to urine",
-                "CurveOptions": {
-                  "yAxisType": "Y2",
-                  "Color": "#808080",
-                  "LegendIndex": 21,
-                  "LineStyle": "Dash"
-                }
-              },
-              {
-                "Name": "Thorpe_1990_fluconazole_100mg_po_train-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "Thorpe_1990_fluconazole_100mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#C0C000",
-                  "LegendIndex": 22
-                }
-              },
-              {
-                "Name": "Varhe_1996_fluconazole_200mg_po_train-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "Varhe_1996_fluconazole_200mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#0000C0",
-                  "LegendIndex": 23
-                }
-              },
-              {
-                "Name": "Brammer_1990_fluconazole_200mg_po_train-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "Brammer_1990_fluconazole_200mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#FF00FF",
-                  "LegendIndex": 24
-                }
-              },
-              {
-                "Name": "Brammer_1990_fluconazole_400mg_po_train-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "Brammer_1990_fluconazole_400mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#00C0C0",
-                  "LegendIndex": 25
-                }
-              },
-              {
-                "Name": "Brammer_1990_fluconazole_300mg_po_train-Fluconazole-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "Brammer_1990_fluconazole_300mg_po_train|Organism|PeripheralVenousBlood|Fluconazole|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#FF8000",
-                  "LegendIndex": 26
-                }
               }
             ],
             "Name": "Time Profile",
@@ -7913,7 +8202,7 @@
           "Values": [
             1.13,
             1.0,
-            0.979999959,
+            0.97999996,
             0.88,
             0.76,
             0.7,
@@ -8059,19 +8348,19 @@
                 "MolWeight": 306.33
               },
               "Values": [
-                3.03875971,
-                3.41085267,
-                4.52713156,
+                3.0387597,
+                3.4108527,
+                4.5271316,
                 4.27907,
-                4.77519369,
-                4.96124029,
-                5.45736456,
+                4.7751937,
+                4.9612403,
+                5.4573646,
                 5.023256,
-                5.95348835,
-                5.20930243,
+                5.9534883,
+                5.2093024,
                 5.271318,
                 5.271318,
-                5.51937962,
+                5.5193796,
                 5.891473,
                 4.27907,
                 5.023256
@@ -8249,7 +8538,7 @@
           },
           "Values": [
             2.72,
-            1.99000013,
+            1.9900001,
             1.83,
             1.7,
             1.58,
@@ -8291,7 +8580,7 @@
           1.82,
           2.32,
           3.37,
-          4.34000063,
+          4.3400006,
           6.36,
           12.0,
           24.0,
@@ -8415,13 +8704,13 @@
               },
               "Values": [
                 1.26646,
-                2.11076641,
+                2.1107664,
                 2.026336,
                 2.026336,
-                2.11076641,
+                2.1107664,
                 2.026336,
-                2.11076641,
-                1.68861318,
+                2.1107664,
+                1.6886132,
                 1.6041826,
                 2.195197,
                 1.6041826
@@ -8449,7 +8738,7 @@
             9.67,
             9.58,
             9.4,
-            7.69999933
+            7.6999993
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
@@ -8586,7 +8875,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 306.33,
-            "LLOQ": 1E-07
+            "LLOQ": 1e-07
           },
           "Values": [
             0.527,
@@ -8782,7 +9071,7 @@
             2.12,
             2.06,
             1.97,
-            1.91000009,
+            1.9100001,
             1.85,
             1.49
           ],
@@ -8927,13 +9216,13 @@
               },
               "Values": [
                 0.0,
-                1.18202925,
+                1.1820292,
                 1.013168,
                 0.9287373,
                 0.0,
                 0.0,
                 0.8443066,
-                0.675445259,
+                0.67544526,
                 0.0,
                 0.0,
                 0.0
@@ -8959,8 +9248,8 @@
             4.15,
             4.18,
             4.09,
-            3.87999988,
-            3.82000017,
+            3.8799999,
+            3.8200002,
             3.13
           ],
           "Dimension": "Concentration (mass)",
@@ -9103,13 +9392,13 @@
                 "MolWeight": 306.33
               },
               "Values": [
-                0.00565685472,
+                0.0056568547,
                 0.008485282,
-                0.0113137094,
-                0.0169705637,
-                0.0311126988,
+                0.011313709,
+                0.016970564,
+                0.031112699,
                 0.053740114,
-                0.0509116873,
+                0.050911687,
                 0.04808326,
                 0.04808326
               ],
@@ -9273,11 +9562,11 @@
               },
               "Values": [
                 0.008485282,
-                0.0141421352,
-                0.0226274189,
-                0.0226274189,
+                0.014142135,
+                0.022627419,
+                0.022627419,
                 0.05656854,
-                0.0678822547,
+                0.067882255,
                 0.07636753,
                 0.07353911,
                 0.07071068
@@ -9296,11 +9585,11 @@
           "Values": [
             0.021,
             0.048,
-            0.0969999954,
+            0.096999995,
             0.145,
             0.268,
             0.447,
-            0.567000031,
+            0.56700003,
             0.628,
             0.665
           ],
@@ -9441,15 +9730,15 @@
                 "MolWeight": 306.33
               },
               "Values": [
-                0.0146969389,
-                0.0195959173,
-                0.0195959173,
-                0.0220454074,
-                0.0587877557,
-                0.0612372458,
-                0.0514392853,
+                0.014696939,
+                0.019595917,
+                0.019595917,
+                0.022045407,
+                0.058787756,
+                0.061237246,
+                0.051439285,
                 0.05633826,
-                0.0416413248
+                0.041641325
               ],
               "Dimension": "Fraction"
             }
@@ -9466,11 +9755,11 @@
             0.031,
             0.064,
             0.12,
-            0.197000012,
+            0.19700001,
             0.325,
             0.513,
             0.64199996,
-            0.715999961,
+            0.71599996,
             0.751
           ],
           "Dimension": "Fraction"
@@ -9610,13 +9899,13 @@
                 "MolWeight": 306.33
               },
               "Values": [
-                0.169705629,
-                0.254558444,
-                0.0848528147,
+                0.16970563,
+                0.25455844,
+                0.084852815,
                 0.05656854,
                 0.05656854,
-                0.0282842722,
-                0.0282842722,
+                0.028284272,
+                0.028284272,
                 0.05656854,
                 0.05656854,
                 0.05656854
@@ -9785,13 +10074,13 @@
               },
               "Values": [
                 0.8083316,
-                0.220454082,
-                0.220454082,
-                0.122474492,
-                0.146969378,
+                0.22045408,
+                0.22045408,
+                0.12247449,
+                0.14696938,
                 0.09797959,
                 0.09797959,
-                0.0489897951,
+                0.048989795,
                 0.07348469,
                 0.09797959
               ],
@@ -9958,15 +10247,15 @@
                 "MolWeight": 306.33
               },
               "Values": [
-                0.141421363,
+                0.14142136,
                 0.05656854,
                 0.05656854,
-                0.0282842722,
+                0.028284272,
                 0.05656854,
-                0.0282842722,
-                0.0282842722,
-                0.0282842722,
-                0.0282842722,
+                0.028284272,
+                0.028284272,
+                0.028284272,
+                0.028284272,
                 0.0
               ],
               "Dimension": "Concentration (mass)",
@@ -10132,15 +10421,15 @@
                 "MolWeight": 306.33
               },
               "Values": [
-                0.00565685472,
-                0.0141421352,
-                0.0169705637,
-                0.0226274189,
-                0.0339411274,
-                0.0424264036,
-                0.0424264036,
+                0.0056568547,
+                0.014142135,
+                0.016970564,
+                0.022627419,
+                0.033941127,
+                0.042426404,
+                0.042426404,
                 0.036769554,
-                0.0311126988
+                0.031112699
               ],
               "Dimension": "Fraction"
             }
@@ -10162,7 +10451,7 @@
             0.498,
             0.612,
             0.677,
-            0.718000054
+            0.71800005
           ],
           "Dimension": "Fraction"
         }
@@ -10302,14 +10591,14 @@
               },
               "Values": [
                 0.008485282,
-                0.0197989885,
+                0.019798988,
                 0.02828427,
-                0.0339411274,
-                0.0509116873,
+                0.033941127,
+                0.050911687,
                 0.04808326,
                 0.04808326,
                 0.06505383,
-                0.0678822547
+                0.067882255
               ],
               "Dimension": "Fraction"
             }
@@ -10470,16 +10759,16 @@
                 "MolWeight": 306.33
               },
               "Values": [
-                0.282842726,
-                0.169705629,
-                0.0848528147,
+                0.28284273,
+                0.16970563,
+                0.084852815,
                 0.05656854,
-                0.0848528147,
-                0.0848528147,
-                0.0848528147,
-                0.0848528147,
-                0.0848528147,
-                0.0848528147,
+                0.084852815,
+                0.084852815,
+                0.084852815,
+                0.084852815,
+                0.084852815,
+                0.084852815,
                 0.05656854,
                 0.05656854
               ],
@@ -10650,18 +10939,18 @@
                 "MolWeight": 306.33
               },
               "Values": [
-                0.226274177,
-                0.226274177,
-                0.141421363,
-                0.0848528147,
+                0.22627418,
+                0.22627418,
+                0.14142136,
+                0.084852815,
                 0.05656854,
-                0.0282842722,
+                0.028284272,
                 0.05656854,
-                0.0282842722,
-                0.0282842722,
-                0.0282842722,
-                0.0282842722,
-                0.0282842722
+                0.028284272,
+                0.028284272,
+                0.028284272,
+                0.028284272,
+                0.028284272
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "mg/l"
@@ -10989,20 +11278,20 @@
                 "MolWeight": 306.33
               },
               "Values": [
-                1.99679875,
-                1.64190042,
+                1.9967988,
+                1.6419004,
                 1.668637,
-                1.42073476,
-                1.50346518,
+                1.4207348,
+                1.5034652,
                 1.658617,
-                1.54488075,
+                1.5448807,
                 1.5767622,
-                1.45666552,
-                1.70567083,
-                1.29675376,
-                1.34159732,
-                1.26609242,
-                1.20834613
+                1.4566655,
+                1.7056708,
+                1.2967538,
+                1.3415973,
+                1.2660924,
+                1.2083461
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "mg/l"
@@ -11175,20 +11464,20 @@
                 "MolWeight": 306.33
               },
               "Values": [
-                1.59202516,
+                1.5920252,
                 2.0624218,
-                1.84412289,
-                1.79849327,
-                1.62661636,
+                1.8441229,
+                1.7984933,
+                1.6266164,
                 2.146756,
-                1.62803853,
-                1.60464358,
-                1.58854854,
-                1.44475579,
-                1.50594318,
+                1.6280385,
+                1.6046436,
+                1.5885485,
+                1.4447558,
+                1.5059432,
                 1.284643,
                 1.137337,
-                1.02175879
+                1.0217588
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "mg/l"
@@ -11358,7 +11647,7 @@
             "MolWeight": 306.33
           },
           "Values": [
-            3.98000026,
+            3.9800003,
             7.15,
             8.41,
             9.64,
@@ -11977,7 +12266,7 @@
           },
           "Values": [
             1.19,
-            0.955000043,
+            0.95500004,
             0.906,
             0.866,
             0.815,
@@ -12005,7 +12294,7 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          0.696999967,
+          0.69699997,
           1.53,
           2.14,
           3.06,
@@ -12134,7 +12423,7 @@
             7.26,
             7.56,
             7.7699995,
-            7.79000044,
+            7.7900004,
             7.6,
             7.39,
             7.11,
@@ -12282,8 +12571,8 @@
             8.19,
             7.92,
             7.85,
-            7.79000044,
-            7.68999958,
+            7.7900004,
+            7.6899996,
             7.45,
             7.14,
             6.96,
